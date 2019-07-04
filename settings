@@ -1,0 +1,470 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] store-all                                                          [pom]
+[INFO] store-common                                                       [jar]
+[INFO] store-front Maven Webapp                                           [war]
+[INFO] store-backend Maven Webapp                                         [war]
+[INFO] store-maintenance Maven Webapp                                     [war]
+[INFO] 
+[INFO] ------------------< jp.co.techmatrix.store:store-all >------------------
+[INFO] Building store-all 0.0.1-SNAPSHOT                                  [1/5]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- jtest-maven-plugin:1.2.14:jtest (default-cli) @ store-all ---
+[warn] Jtest: No dependency management for project store-all
+[info] Jtest: Using default source level 1.5
+[warn] Jtest: No dependency management for project store-all
+[info] Jtest: Using default source level 1.5
+[warn] Jtest: No dependency management for project store-common
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-common
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-common
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-common
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-front Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-front Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-front Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-front Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-backend Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-backend Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-backend Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-backend Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-maintenance Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-maintenance Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-maintenance Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-maintenance Maven Webapp
+[info] Jtest: maven-compiler-plugin "source" config element found
+[INFO] Jtest: Found 5 project information
+[INFO] Jtest: Json file created at: /home/tmx/work/store-all/target/jtest/jtest.data.json
+[INFO] Jtest: Working dir: /home/tmx/work/store-all
+[INFO] Jtest: Execute command: /opt/parasoft/jtest_10.4.0/jtestcli  -data /home/tmx/work/store-all/target/jtest/jtest.data.json -config "user://Recommended Rules" -exclude /home/tmx/work/store-all/target/jtest/testExcludes_8.lst -settings /home/tmx/work/store-all/localsettings.properties -report /home/tmx/work/store-all/target/jtest -showsettings true -fail false -workspace /home/tmx/work/store-all/target/jtest
+Parasoft Jtest 10.4.0 (201807180921) -- Copyright (C) 2018 Parasoft Corporation
+
+[Jtest] ライセンス: マシン ID LINUX2-589ebf54
+[Jtest] 設定:
+[Jtest]   # from: /opt/parasoft/jtest_10.4.0/etc/jtestcli.properties
+[Jtest]   com.parasoft.jtest.globals.analyzer.batch.parse.limit=200
+[Jtest]   configuration.dir.builtin=${jtest.home}/configs/builtin
+[Jtest]   configuration.dir.user=${jtest.home}/configs/user
+[Jtest]   configuration.share.path=/jtest/configs
+[Jtest]   jtest.analyzer.execution.coverage.show.synthetic.members=false
+[Jtest]   jtest.analyzer.static.dupcode.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.dupcode.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.dupcode.simultaneous.processing.limit=400
+[Jtest]   jtest.analyzer.static.flow.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.flow.graphs.parallel.processing=false
+[Jtest]   jtest.analyzer.static.flow.graphs.simultaneous.processing.limit=50
+[Jtest]   jtest.analyzer.static.flow.models.cache.enabled=false
+[Jtest]   jtest.analyzer.static.flow.models.inMemorySize=75
+[Jtest]   jtest.analyzer.static.flow.parallel.processing=true
+[Jtest]   jtest.analyzer.static.flow.parser.java.xast.xmethodbinding.getMethodDeclaration=false
+[Jtest]   jtest.analyzer.static.flow.res.root.dir=${jtest.home}/plugins/builtin/res
+[Jtest]   jtest.analyzer.static.flow.simultaneous.processing.limit=100
+[Jtest]   jtest.analyzer.static.java.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.java.parallel.processing=true
+[Jtest]   jtest.analyzer.static.java.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.java.simultaneous.processing.limit=400
+[Jtest]   jtest.analyzer.static.metrics.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.metrics.parallel.processing=true
+[Jtest]   jtest.analyzer.static.metrics.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.metrics.simultaneous.processing.limit=400
+[Jtest]   jtest.analyzer.static.prop.batch.parse.limit=50
+[Jtest]   jtest.analyzer.static.prop.parallel.processing=true
+[Jtest]   jtest.analyzer.static.prop.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.prop.simultaneous.processing.limit=50
+[Jtest]   jtest.analyzer.static.rulewizard.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.rulewizard.parallel.processing=true
+[Jtest]   jtest.analyzer.static.rulewizard.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.rulewizard.simultaneous.processing.limit=400
+[Jtest]   jtest.analyzer.static.xml.batch.parse.limit=50
+[Jtest]   jtest.analyzer.static.xml.parallel.processing=true
+[Jtest]   jtest.analyzer.static.xml.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.xml.simultaneous.processing.limit=50
+[Jtest]   jtest.configuration=builtin://Recommended Rules
+[Jtest]   jtest.configuration.dir.builtin9x=${jtest.home}/configs/builtin9x
+[Jtest]   jtest.database.dir=${local.storage.dir}/com.parasoft.jtest.database
+[Jtest]   jtest.database.recreate=false
+[Jtest]   jtest.database.store.threads=1
+[Jtest]   jtest.database.url.suffix=;TRACE_LEVEL_FILE=1;MULTI_THREADED=1;LOCK_TIMEOUT=10000
+[Jtest]   jtest.default.sourcelevel=1.8
+[Jtest]   jtest.globals.filesearch.legacy=false
+[Jtest]   jtest.injected.field.annotations.fxjava=javafx.fxml.FXML
+[Jtest]   jtest.injected.field.annotations.j2ee=javax.inject.Inject,javax.ws.rs.core.Context,javax.annotation.Resource,javax.ws.rs.DefaultValue,javax.ws.rs.QueryParam,javax.ws.rs.PathParam,javax.ws.rs.MatrixParam,javax.ws.rs.CookieParam,javax.ws.rs.HeaderParam,javax.ws.rs.BeanParam,javax.ws.rs.FormParam
+[Jtest]   jtest.injected.field.annotations.jpa=javax.persistence.Basic,javax.persistence.Embedded,javax.persistence.ElementCollection,javax.persistence.PersistenceContext,javax.persistence.Column,javax.persistence.ManyToMany,javax.persistence.ManyToOne,javax.persistence.OneToMany,javax.persistence.OneToOne,javax.persistence.PersistenceUnit
+[Jtest]   jtest.injected.field.annotations.maven=org.apache.maven.plugins.annotations.Parameter,org.apache.maven.plugins.annotations.Component
+[Jtest]   jtest.injected.field.annotations.seam=org.jboss.seam.annotations.In
+[Jtest]   jtest.injected.field.annotations.spring=org.springframework.beans.factory.annotation.Autowired,org.springframework.beans.factory.annotation.Value
+[Jtest]   jtest.injected.field.annotations.struts=com.opensymphony.xwork2.util.CreateIfNull,com.opensymphony.xwork2.inject.Inject
+[Jtest]   jtest.injected.method.annotations.fxjava=javafx.fxml.FXML
+[Jtest]   jtest.injected.method.annotations.j2ee=javax.inject.Inject,javax.ws.rs.core.Context,javax.annotation.Resource,javax.ws.rs.DefaultValue,javax.ws.rs.QueryParam,javax.ws.rs.PathParam,javax.ws.rs.MatrixParam,javax.ws.rs.CookieParam,javax.ws.rs.HeaderParam,javax.ws.rs.BeanParam,javax.ws.rs.FormParam
+[Jtest]   jtest.injected.method.annotations.jpa=javax.persistence.Basic,javax.persistence.Embedded,javax.persistence.ElementCollection,javax.persistence.PersistenceContext,javax.persistence.Column,javax.persistence.ManyToMany,javax.persistence.ManyToOne,javax.persistence.OneToMany,javax.persistence.OneToOne,javax.persistence.PersistenceUnit
+[Jtest]   jtest.injected.method.annotations.maven=
+[Jtest]   jtest.injected.method.annotations.seam=org.jboss.seam.annotations.In,org.jboss.seam.annotations.Logger
+[Jtest]   jtest.injected.method.annotations.spring=org.springframework.beans.factory.annotation.Autowired,org.springframework.beans.factory.annotation.Value
+[Jtest]   jtest.injected.method.annotations.struts=com.opensymphony.xwork2.util.CreateIfNull,com.opensymphony.xwork2.inject.Inject
+[Jtest]   jtest.injected.parameter.annotations.fxjava=
+[Jtest]   jtest.injected.parameter.annotations.j2ee=javax.ws.rs.core.Context,javax.ws.rs.DefaultValue,javax.ws.rs.QueryParam,javax.ws.rs.PathParam,javax.ws.rs.MatrixParam,javax.ws.rs.CookieParam,javax.ws.rs.HeaderParam,javax.ws.rs.BeanParam,javax.ws.rs.FormParam
+[Jtest]   jtest.injected.parameter.annotations.jpa=
+[Jtest]   jtest.injected.parameter.annotations.maven=
+[Jtest]   jtest.injected.parameter.annotations.seam=
+[Jtest]   jtest.injected.parameter.annotations.spring=org.springframework.beans.factory.annotation.Value
+[Jtest]   jtest.injected.parameter.annotations.struts=com.opensymphony.xwork2.inject.Inject
+[Jtest]   jtest.license.network.edition=server_edition
+[Jtest]   jtest.parser.ignoreParseErrors=false
+[Jtest]   jtest.parser.includeRunningVMBootclasspath=false
+[Jtest]   jtest.parser.java.batch.parse.limit=1
+[Jtest]   jtest.preanalyze.simultaneous.processing.limit=400
+[Jtest]   jtest.preanalyze.simultaneous.processing.pool=4
+[Jtest]   jtest.rulewizard.dictionaries.dir=${jtest.home}/etc/rulewizard
+[Jtest]   jtest.supported.javaversion=1.3,1.4,1.5,1.6,1.7,1.8
+[Jtest]   jtest.techsupport.include.configuration=true
+[Jtest]   jtest.techsupport.include.coverage=false
+[Jtest]   jtest.techsupport.include.database=false
+[Jtest]   jtest.techsupport.include.metrics=false
+[Jtest]   jtest.techsupport.include.report=false
+[Jtest]   jtest.techsupport.include.testoutcomes=false
+[Jtest]   jtest.workspace.dir=.
+[Jtest]   local.storage.dir=${jtest.workspace.dir}/.jtest
+[Jtest]   report.active_rules=true
+[Jtest]   report.associations=true
+[Jtest]   report.authors_details=false
+[Jtest]   report.contexts_details=true
+[Jtest]   report.developer_errors=true
+[Jtest]   report.developer_reports=false
+[Jtest]   report.format=html
+[Jtest]   report.location=${jtest.workspace.dir}/report
+[Jtest]   report.setup.problems=bottom
+[Jtest]   report.test_params=true
+[Jtest]   rule.dir.user=${jtest.home}/rules/user
+[Jtest]   rules.provider_dupcode.analyzer=com.parasoft.jtest.standards.dupcode
+[Jtest]   rules.provider_dupcode.data=${jtest.home}/rules/dcrules.xml
+[Jtest]   rules.provider_dupcode.id=com.parasoft.jtest.standards.dupcode.rules
+[Jtest]   rules.provider_flowanalysis_builtin.analyzer=com.parasoft.jtest.flowanalyzer
+[Jtest]   rules.provider_flowanalysis_builtin.data=${jtest.home}/rules/farules.xml
+[Jtest]   rules.provider_flowanalysis_builtin.id=com.parasoft.jtest.flowanalyzer.rules.builtin
+[Jtest]   rules.provider_flowanalysis_builtin.separator=.
+[Jtest]   rules.provider_flowanalysis_external.analyzer=com.parasoft.jtest.flowanalyzer
+[Jtest]   rules.provider_flowanalysis_external.data=${jtest.home}/rules/external_farules.xml
+[Jtest]   rules.provider_flowanalysis_external.id=com.parasoft.jtest.flowanalyzer.rules.external
+[Jtest]   rules.provider_flowanalysis_external.separator=.
+[Jtest]   rules.provider_java_builtin.analyzer=com.parasoft.jtest.standards.checkers.java
+[Jtest]   rules.provider_java_builtin.data=${jtest.home}/rules/corerules.xml
+[Jtest]   rules.provider_java_builtin.deprecated=${jtest.home}/rules/deprecated_rules.xml
+[Jtest]   rules.provider_java_builtin.id=com.parasoft.jtest.rules.java.builtin
+[Jtest]   rules.provider_java_builtin.separator=.
+[Jtest]   rules.provider_metric.analyzer=com.parasoft.jtest.standards.metrics.analyzer
+[Jtest]   rules.provider_metric.data=${jtest.home}/rules/metrics.xml
+[Jtest]   rules.provider_metric.id=com.parasoft.jtest.rules.metrics.builtin
+[Jtest]   rules.provider_metric.separator=.
+[Jtest]   rules.provider_metric.type=metrics
+[Jtest]   rules.provider_prop.analyzer=com.parasoft.jtest.standards.checkers.prop
+[Jtest]   rules.provider_prop.data=${jtest.home}/rules/proprules.xml
+[Jtest]   rules.provider_prop.id=com.parasoft.jtest.rules.prop.builtin
+[Jtest]   rules.provider_prop.separator=.
+[Jtest]   rules.provider_rulewizard_builtin.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+[Jtest]   rules.provider_rulewizard_builtin.data=${jtest.home}/rules/rwrules.xml
+[Jtest]   rules.provider_rulewizard_builtin.directory=${jtest.home}/rules/builtin/
+[Jtest]   rules.provider_rulewizard_builtin.id=com.parasoft.jtest.rules.rulewizard.builtin
+[Jtest]   rules.provider_rulewizard_builtin.separator=.
+[Jtest]   rules.provider_rulewizard_dtp.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+[Jtest]   rules.provider_rulewizard_dtp.categories=${local.storage.dir}/rules/dtp/categories.properties
+[Jtest]   rules.provider_rulewizard_dtp.data=${local.storage.dir}/rules/dtp/rules.xml
+[Jtest]   rules.provider_rulewizard_dtp.dir=${local.storage.dir}/rules/dtp/
+[Jtest]   rules.provider_rulewizard_dtp.id=com.parasoft.jtest.rules.rulewizard.dtp
+[Jtest]   rules.provider_rulewizard_dtp.mapping=${local.storage.dir}/rules/dtp/rulemap.xml
+[Jtest]   rules.provider_rulewizard_dtp.separator=.
+[Jtest]   rules.provider_rulewizard_dtp.share.url=true
+[Jtest]   rules.provider_rulewizard_team.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+[Jtest]   rules.provider_rulewizard_team.categories=${local.storage.dir}/rules/team/categories.properties
+[Jtest]   rules.provider_rulewizard_team.data=${local.storage.dir}/rules/team/rules.xml
+[Jtest]   rules.provider_rulewizard_team.dir=${local.storage.dir}/rules/team/
+[Jtest]   rules.provider_rulewizard_team.id=com.parasoft.jtest.rules.rulewizard.team
+[Jtest]   rules.provider_rulewizard_team.mapping=${local.storage.dir}/rules/team/rulemap.xml
+[Jtest]   rules.provider_rulewizard_team.separator=.
+[Jtest]   rules.provider_rulewizard_team.share.path=jtest/rules
+[Jtest]   rules.provider_rulewizard_user.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+[Jtest]   rules.provider_rulewizard_user.data=${rule.dir.user}/rules.xml
+[Jtest]   rules.provider_rulewizard_user.dir=${rule.dir.user}
+[Jtest]   rules.provider_rulewizard_user.id=com.parasoft.jtest.rules.rulewizard.user
+[Jtest]   rules.provider_rulewizard_user.mapping=${rule.dir.user}/rulemap.xml
+[Jtest]   rules.provider_rulewizard_user.separator=.
+[Jtest]   rules.provider_xml.analyzer=com.parasoft.jtest.standards.checkers.xml
+[Jtest]   rules.provider_xml.data=${jtest.home}/rules/xmlrules.xml
+[Jtest]   rules.provider_xml.id=com.parasoft.jtest.rules.xml.builtin
+[Jtest]   rules.provider_xml.separator=.
+[Jtest]   settings.rules.file.jtest=${jtest.home}/etc/settings_rules.properties
+[Jtest]   suppression1.comment=//
+[Jtest]   suppression1.file.ext=java
+[Jtest]   suppression2.block.only=true
+[Jtest]   suppression2.comment=#
+[Jtest]   suppression2.file.ext=properties,mf
+[Jtest]   suppression3.block.only=true
+[Jtest]   suppression3.comment=<!--
+[Jtest]   suppression3.comment.suffix=-->
+[Jtest]   suppression3.file.ext=xml
+[Jtest]   suppression4.block.only=true
+[Jtest]   suppression4.comment=/*
+[Jtest]   suppression4.comment.suffix=*/
+[Jtest]   suppression4.file.ext=java
+[Jtest]   techsupport.create.on.exit=true
+[Jtest]   
+[Jtest]   # from: /opt/parasoft/jtest_10.4.0/jtestcli.properties
+[Jtest]   console.verbosity.level=high
+[Jtest]   jtest.license.local.password=TMX_B8DABBB8D810C093A09CC4FFF5A9F82EA4A49B9C65D7BC9FF722BE22140FD27EF85269AD570AE90DC6E0703E357ABFC0B30A7BA1AF44635060DFD49380736D47_39C765A5A750CA2C94C6056DB608F0209E5ED02EAD515262D82564BFAE824D1F3C25F757EACC98D7FEFFD09DB0FD1933617016B1E4A9A1566FE375E394EE0CB9
+[Jtest]   jtest.license.use_network=false
+[Jtest]   report.location=report_09
+[Jtest]   report.scontrol=full
+[Jtest]   scontrol.rep1.svn.login=shinsuke
+[Jtest]   scontrol.rep1.svn.password=amg
+[Jtest]   scontrol.rep1.svn.url=http://localhost/svn/demo
+[Jtest]   scontrol.rep1.type=svn
+[Jtest]   scontrol.svn.exec=/usr/local/bin/svn
+[Jtest]   scope.scontrol=true
+[Jtest]   
+[Jtest]   # from: /home/tmx/jtestcli.properties
+[Jtest]   
+[Jtest]   # from: /home/tmx/work/store-all/jtestcli.properties
+[Jtest]   
+[Jtest]   # from: /home/tmx/work/store-all/localsettings.properties
+[Jtest]   console.verbosity.level=low
+[Jtest]   report.location=report_09
+[Jtest]   
+[Jtest]   # from: command line options
+[Jtest]   jtest.configuration=user://Recommended Rules
+[Jtest]   jtest.data=/home/tmx/work/store-all/target/jtest/jtest.data.json
+[Jtest]   jtest.exclude=/home/tmx/work/store-all/target/jtest/testExcludes_8.lst
+[Jtest]   jtest.fail=false
+[Jtest]   jtest.home=/opt/parasoft/jtest_10.4.0
+[Jtest]   jtest.jtesthome=/opt/parasoft/jtest_10.4.0
+[Jtest]   jtest.showsettings=true
+[Jtest]   jtest.workspace.dir=/home/tmx/work/store-all/target/jtest
+[Jtest]   report.location=/home/tmx/work/store-all/target/jtest
+[Jtest]   runtime.command_line=jtestcli -data /home/tmx/work/store-all/target/jtest/jtest.data.json -config user://Recommended Rules -exclude /home/tmx/work/store-all/target/jtest/testExcludes_8.lst -settings /home/tmx/work/store-all/localsettings.properties -report /home/tmx/work/store-all/target/jtest -showsettings true -fail false
+[Jtest]   
+[Jtest]   # from: preferences services
+[Jtest]   
+[Jtest]   # from: test configuration
+[Jtest]   
+[Jtest]   # final: 
+[Jtest]   com.parasoft.jtest.globals.analyzer.batch.parse.limit=200
+[Jtest]   configuration.dir.builtin=/opt/parasoft/jtest_10.4.0/configs/builtin
+[Jtest]   configuration.dir.user=/opt/parasoft/jtest_10.4.0/configs/user
+[Jtest]   configuration.share.path=/jtest/configs
+[Jtest]   console.verbosity.level=low
+[Jtest]   jtest.analyzer.execution.coverage.show.synthetic.members=false
+[Jtest]   jtest.analyzer.static.dupcode.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.dupcode.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.dupcode.simultaneous.processing.limit=400
+[Jtest]   jtest.analyzer.static.flow.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.flow.graphs.parallel.processing=false
+[Jtest]   jtest.analyzer.static.flow.graphs.simultaneous.processing.limit=50
+[Jtest]   jtest.analyzer.static.flow.models.cache.enabled=false
+[Jtest]   jtest.analyzer.static.flow.models.inMemorySize=75
+[Jtest]   jtest.analyzer.static.flow.parallel.processing=true
+[Jtest]   jtest.analyzer.static.flow.parser.java.xast.xmethodbinding.getMethodDeclaration=false
+[Jtest]   jtest.analyzer.static.flow.res.root.dir=/opt/parasoft/jtest_10.4.0/plugins/builtin/res
+[Jtest]   jtest.analyzer.static.flow.simultaneous.processing.limit=100
+[Jtest]   jtest.analyzer.static.java.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.java.parallel.processing=true
+[Jtest]   jtest.analyzer.static.java.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.java.simultaneous.processing.limit=400
+[Jtest]   jtest.analyzer.static.metrics.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.metrics.parallel.processing=true
+[Jtest]   jtest.analyzer.static.metrics.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.metrics.simultaneous.processing.limit=400
+[Jtest]   jtest.analyzer.static.prop.batch.parse.limit=50
+[Jtest]   jtest.analyzer.static.prop.parallel.processing=true
+[Jtest]   jtest.analyzer.static.prop.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.prop.simultaneous.processing.limit=50
+[Jtest]   jtest.analyzer.static.rulewizard.batch.parse.limit=100
+[Jtest]   jtest.analyzer.static.rulewizard.parallel.processing=true
+[Jtest]   jtest.analyzer.static.rulewizard.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.rulewizard.simultaneous.processing.limit=400
+[Jtest]   jtest.analyzer.static.xml.batch.parse.limit=50
+[Jtest]   jtest.analyzer.static.xml.parallel.processing=true
+[Jtest]   jtest.analyzer.static.xml.parser.cache.enabled=true
+[Jtest]   jtest.analyzer.static.xml.simultaneous.processing.limit=50
+[Jtest]   jtest.configuration=user://Recommended Rules
+[Jtest]   jtest.configuration.dir.builtin9x=/opt/parasoft/jtest_10.4.0/configs/builtin9x
+[Jtest]   jtest.context.id=1536664523537
+[Jtest]   jtest.data=/home/tmx/work/store-all/target/jtest/jtest.data.json
+[Jtest]   jtest.database.dir=/home/tmx/work/store-all/target/jtest/.jtest/com.parasoft.jtest.database
+[Jtest]   jtest.database.recreate=false
+[Jtest]   jtest.database.store.threads=1
+[Jtest]   jtest.database.url.suffix=;TRACE_LEVEL_FILE=1;MULTI_THREADED=1;LOCK_TIMEOUT=10000
+[Jtest]   jtest.default.sourcelevel=1.8
+[Jtest]   jtest.exclude=/home/tmx/work/store-all/target/jtest/testExcludes_8.lst
+[Jtest]   jtest.fail=false
+[Jtest]   jtest.globals.filesearch.legacy=false
+[Jtest]   jtest.home=/opt/parasoft/jtest_10.4.0
+[Jtest]   jtest.injected.field.annotations.fxjava=javafx.fxml.FXML
+[Jtest]   jtest.injected.field.annotations.j2ee=javax.inject.Inject,javax.ws.rs.core.Context,javax.annotation.Resource,javax.ws.rs.DefaultValue,javax.ws.rs.QueryParam,javax.ws.rs.PathParam,javax.ws.rs.MatrixParam,javax.ws.rs.CookieParam,javax.ws.rs.HeaderParam,javax.ws.rs.BeanParam,javax.ws.rs.FormParam
+[Jtest]   jtest.injected.field.annotations.jpa=javax.persistence.Basic,javax.persistence.Embedded,javax.persistence.ElementCollection,javax.persistence.PersistenceContext,javax.persistence.Column,javax.persistence.ManyToMany,javax.persistence.ManyToOne,javax.persistence.OneToMany,javax.persistence.OneToOne,javax.persistence.PersistenceUnit
+[Jtest]   jtest.injected.field.annotations.maven=org.apache.maven.plugins.annotations.Parameter,org.apache.maven.plugins.annotations.Component
+[Jtest]   jtest.injected.field.annotations.seam=org.jboss.seam.annotations.In
+[Jtest]   jtest.injected.field.annotations.spring=org.springframework.beans.factory.annotation.Autowired,org.springframework.beans.factory.annotation.Value
+[Jtest]   jtest.injected.field.annotations.struts=com.opensymphony.xwork2.util.CreateIfNull,com.opensymphony.xwork2.inject.Inject
+[Jtest]   jtest.injected.method.annotations.fxjava=javafx.fxml.FXML
+[Jtest]   jtest.injected.method.annotations.j2ee=javax.inject.Inject,javax.ws.rs.core.Context,javax.annotation.Resource,javax.ws.rs.DefaultValue,javax.ws.rs.QueryParam,javax.ws.rs.PathParam,javax.ws.rs.MatrixParam,javax.ws.rs.CookieParam,javax.ws.rs.HeaderParam,javax.ws.rs.BeanParam,javax.ws.rs.FormParam
+[Jtest]   jtest.injected.method.annotations.jpa=javax.persistence.Basic,javax.persistence.Embedded,javax.persistence.ElementCollection,javax.persistence.PersistenceContext,javax.persistence.Column,javax.persistence.ManyToMany,javax.persistence.ManyToOne,javax.persistence.OneToMany,javax.persistence.OneToOne,javax.persistence.PersistenceUnit
+[Jtest]   jtest.injected.method.annotations.maven=
+[Jtest]   jtest.injected.method.annotations.seam=org.jboss.seam.annotations.In,org.jboss.seam.annotations.Logger
+[Jtest]   jtest.injected.method.annotations.spring=org.springframework.beans.factory.annotation.Autowired,org.springframework.beans.factory.annotation.Value
+[Jtest]   jtest.injected.method.annotations.struts=com.opensymphony.xwork2.util.CreateIfNull,com.opensymphony.xwork2.inject.Inject
+[Jtest]   jtest.injected.parameter.annotations.fxjava=
+[Jtest]   jtest.injected.parameter.annotations.j2ee=javax.ws.rs.core.Context,javax.ws.rs.DefaultValue,javax.ws.rs.QueryParam,javax.ws.rs.PathParam,javax.ws.rs.MatrixParam,javax.ws.rs.CookieParam,javax.ws.rs.HeaderParam,javax.ws.rs.BeanParam,javax.ws.rs.FormParam
+[Jtest]   jtest.injected.parameter.annotations.jpa=
+[Jtest]   jtest.injected.parameter.annotations.maven=
+[Jtest]   jtest.injected.parameter.annotations.seam=
+[Jtest]   jtest.injected.parameter.annotations.spring=org.springframework.beans.factory.annotation.Value
+[Jtest]   jtest.injected.parameter.annotations.struts=com.opensymphony.xwork2.inject.Inject
+[Jtest]   jtest.jtesthome=/opt/parasoft/jtest_10.4.0
+[Jtest]   jtest.license.local.password=TMX_B8DABBB8D810C093A09CC4FFF5A9F82EA4A49B9C65D7BC9FF722BE22140FD27EF85269AD570AE90DC6E0703E357ABFC0B30A7BA1AF44635060DFD49380736D47_39C765A5A750CA2C94C6056DB608F0209E5ED02EAD515262D82564BFAE824D1F3C25F757EACC98D7FEFFD09DB0FD1933617016B1E4A9A1566FE375E394EE0CB9
+[Jtest]   jtest.license.network.edition=server_edition
+[Jtest]   jtest.license.use_network=false
+[Jtest]   jtest.parser.ignoreParseErrors=false
+[Jtest]   jtest.parser.includeRunningVMBootclasspath=false
+[Jtest]   jtest.parser.java.batch.parse.limit=1
+[Jtest]   jtest.preanalyze.simultaneous.processing.limit=400
+[Jtest]   jtest.preanalyze.simultaneous.processing.pool=4
+[Jtest]   jtest.rulewizard.dictionaries.dir=/opt/parasoft/jtest_10.4.0/etc/rulewizard
+[Jtest]   jtest.showsettings=true
+[Jtest]   jtest.supported.javaversion=1.3,1.4,1.5,1.6,1.7,1.8
+[Jtest]   jtest.techsupport.include.configuration=true
+[Jtest]   jtest.techsupport.include.coverage=false
+[Jtest]   jtest.techsupport.include.database=false
+[Jtest]   jtest.techsupport.include.metrics=false
+[Jtest]   jtest.techsupport.include.report=false
+[Jtest]   jtest.techsupport.include.testoutcomes=false
+[Jtest]   jtest.workspace.dir=/home/tmx/work/store-all/target/jtest
+[Jtest]   local.storage.dir=/home/tmx/work/store-all/target/jtest/.jtest
+[Jtest]   report.active_rules=true
+[Jtest]   report.associations=true
+[Jtest]   report.authors_details=false
+[Jtest]   report.contexts_details=true
+[Jtest]   report.developer_errors=true
+[Jtest]   report.developer_reports=false
+[Jtest]   report.format=html
+[Jtest]   report.location=/home/tmx/work/store-all/target/jtest
+[Jtest]   report.scontrol=full
+[Jtest]   report.setup.problems=bottom
+[Jtest]   report.test_params=true
+[Jtest]   rule.dir.user=/opt/parasoft/jtest_10.4.0/rules/user
+[Jtest]   rules.provider_dupcode.analyzer=com.parasoft.jtest.standards.dupcode
+[Jtest]   rules.provider_dupcode.data=/opt/parasoft/jtest_10.4.0/rules/dcrules.xml
+[Jtest]   rules.provider_dupcode.id=com.parasoft.jtest.standards.dupcode.rules
+[Jtest]   rules.provider_flowanalysis_builtin.analyzer=com.parasoft.jtest.flowanalyzer
+[Jtest]   rules.provider_flowanalysis_builtin.data=/opt/parasoft/jtest_10.4.0/rules/farules.xml
+[Jtest]   rules.provider_flowanalysis_builtin.id=com.parasoft.jtest.flowanalyzer.rules.builtin
+[Jtest]   rules.provider_flowanalysis_builtin.separator=.
+[Jtest]   rules.provider_flowanalysis_external.analyzer=com.parasoft.jtest.flowanalyzer
+[Jtest]   rules.provider_flowanalysis_external.data=/opt/parasoft/jtest_10.4.0/rules/external_farules.xml
+[Jtest]   rules.provider_flowanalysis_external.id=com.parasoft.jtest.flowanalyzer.rules.external
+[Jtest]   rules.provider_flowanalysis_external.separator=.
+[Jtest]   rules.provider_java_builtin.analyzer=com.parasoft.jtest.standards.checkers.java
+[Jtest]   rules.provider_java_builtin.data=/opt/parasoft/jtest_10.4.0/rules/corerules.xml
+[Jtest]   rules.provider_java_builtin.deprecated=/opt/parasoft/jtest_10.4.0/rules/deprecated_rules.xml
+[Jtest]   rules.provider_java_builtin.id=com.parasoft.jtest.rules.java.builtin
+[Jtest]   rules.provider_java_builtin.separator=.
+[Jtest]   rules.provider_metric.analyzer=com.parasoft.jtest.standards.metrics.analyzer
+[Jtest]   rules.provider_metric.data=/opt/parasoft/jtest_10.4.0/rules/metrics.xml
+[Jtest]   rules.provider_metric.id=com.parasoft.jtest.rules.metrics.builtin
+[Jtest]   rules.provider_metric.separator=.
+[Jtest]   rules.provider_metric.type=metrics
+[Jtest]   rules.provider_prop.analyzer=com.parasoft.jtest.standards.checkers.prop
+[Jtest]   rules.provider_prop.data=/opt/parasoft/jtest_10.4.0/rules/proprules.xml
+[Jtest]   rules.provider_prop.id=com.parasoft.jtest.rules.prop.builtin
+[Jtest]   rules.provider_prop.separator=.
+[Jtest]   rules.provider_rulewizard_builtin.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+[Jtest]   rules.provider_rulewizard_builtin.data=/opt/parasoft/jtest_10.4.0/rules/rwrules.xml
+[Jtest]   rules.provider_rulewizard_builtin.directory=/opt/parasoft/jtest_10.4.0/rules/builtin/
+[Jtest]   rules.provider_rulewizard_builtin.id=com.parasoft.jtest.rules.rulewizard.builtin
+[Jtest]   rules.provider_rulewizard_builtin.separator=.
+[Jtest]   rules.provider_rulewizard_dtp.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+[Jtest]   rules.provider_rulewizard_dtp.categories=/home/tmx/work/store-all/target/jtest/.jtest/rules/dtp/categories.properties
+[Jtest]   rules.provider_rulewizard_dtp.data=/home/tmx/work/store-all/target/jtest/.jtest/rules/dtp/rules.xml
+[Jtest]   rules.provider_rulewizard_dtp.dir=/home/tmx/work/store-all/target/jtest/.jtest/rules/dtp/
+[Jtest]   rules.provider_rulewizard_dtp.id=com.parasoft.jtest.rules.rulewizard.dtp
+[Jtest]   rules.provider_rulewizard_dtp.mapping=/home/tmx/work/store-all/target/jtest/.jtest/rules/dtp/rulemap.xml
+[Jtest]   rules.provider_rulewizard_dtp.separator=.
+[Jtest]   rules.provider_rulewizard_dtp.share.url=true
+[Jtest]   rules.provider_rulewizard_team.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+[Jtest]   rules.provider_rulewizard_team.categories=/home/tmx/work/store-all/target/jtest/.jtest/rules/team/categories.properties
+[Jtest]   rules.provider_rulewizard_team.data=/home/tmx/work/store-all/target/jtest/.jtest/rules/team/rules.xml
+[Jtest]   rules.provider_rulewizard_team.dir=/home/tmx/work/store-all/target/jtest/.jtest/rules/team/
+[Jtest]   rules.provider_rulewizard_team.id=com.parasoft.jtest.rules.rulewizard.team
+[Jtest]   rules.provider_rulewizard_team.mapping=/home/tmx/work/store-all/target/jtest/.jtest/rules/team/rulemap.xml
+[Jtest]   rules.provider_rulewizard_team.separator=.
+[Jtest]   rules.provider_rulewizard_team.share.path=jtest/rules
+[Jtest]   rules.provider_rulewizard_user.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+[Jtest]   rules.provider_rulewizard_user.data=/opt/parasoft/jtest_10.4.0/rules/user/rules.xml
+[Jtest]   rules.provider_rulewizard_user.dir=/opt/parasoft/jtest_10.4.0/rules/user
+[Jtest]   rules.provider_rulewizard_user.id=com.parasoft.jtest.rules.rulewizard.user
+[Jtest]   rules.provider_rulewizard_user.mapping=/opt/parasoft/jtest_10.4.0/rules/user/rulemap.xml
+[Jtest]   rules.provider_rulewizard_user.separator=.
+[Jtest]   rules.provider_xml.analyzer=com.parasoft.jtest.standards.checkers.xml
+[Jtest]   rules.provider_xml.data=/opt/parasoft/jtest_10.4.0/rules/xmlrules.xml
+[Jtest]   rules.provider_xml.id=com.parasoft.jtest.rules.xml.builtin
+[Jtest]   rules.provider_xml.separator=.
+[Jtest]   runtime.command_line=jtestcli -data /home/tmx/work/store-all/target/jtest/jtest.data.json -config user://Recommended Rules -exclude /home/tmx/work/store-all/target/jtest/testExcludes_8.lst -settings /home/tmx/work/store-all/localsettings.properties -report /home/tmx/work/store-all/target/jtest -showsettings true -fail false
+[Jtest]   scontrol.rep1.svn.login=shinsuke
+[Jtest]   scontrol.rep1.svn.password=amg
+[Jtest]   scontrol.rep1.svn.url=http://localhost/svn/demo
+[Jtest]   scontrol.rep1.type=svn
+[Jtest]   scontrol.svn.exec=/usr/local/bin/svn
+[Jtest]   scope.scontrol=true
+[Jtest]   settings.rules.file.jtest=/opt/parasoft/jtest_10.4.0/etc/settings_rules.properties
+[Jtest]   suppression1.comment=//
+[Jtest]   suppression1.file.ext=java
+[Jtest]   suppression2.block.only=true
+[Jtest]   suppression2.comment=#
+[Jtest]   suppression2.file.ext=properties,mf
+[Jtest]   suppression3.block.only=true
+[Jtest]   suppression3.comment=<!--
+[Jtest]   suppression3.comment.suffix=-->
+[Jtest]   suppression3.file.ext=xml
+[Jtest]   suppression4.block.only=true
+[Jtest]   suppression4.comment=/*
+[Jtest]   suppression4.comment.suffix=*/
+[Jtest]   suppression4.file.ext=java
+[Jtest]   techsupport.create.on.exit=true
+[Jtest] コンフィギュレーション: Recommended Rules (user://Recommended Rules)
+[Jtest] コマンド ライン: jtestcli -data /home/tmx/work/store-all/target/jtest/jtest.data.json -config user://Recommended Rules -exclude /home/tmx/work/store-all/target/jtest/testExcludes_8.lst -settings /home/tmx/work/store-all/localsettings.properties -report /home/tmx/work/store-all/target/jtest -showsettings true -fail false
+[Jtest] [ 5%] > スコープ
+[Jtest] [ 5%] > 解析
+[Jtest] [ 5%] > 解析 > コードの重複
+[Jtest] [ 5%] > 解析 > Java フロー
+[Jtest] [ 5%] > 解析 > メトリクス
+[Jtest] [ 5%] > 解析 > Java 静的
+[Jtest] [ 5%] > 解析 > プロパティ静的
+[Jtest] [ 5%] > 解析 > RuleWizard 静的
+[Jtest] [ 5%] > 解析 > XML 静的
+[Jtest] [ 5%] > 結果
+[Jtest] [ 5%] > 解析
+[Jtest] [ 5%] > 解析 > IOC
+[Jtest] [ 5%] > レポート
+[Jtest] [43%] < 解析 > IOC: 解析された入力の数 68 の 0、スキップされた入力の数 68                                 >>> IOC 時間 0s
+[Jtest] [43%] < 解析: 0 個の違反が見つかりました。                                                       >>> 解析 時間 0.01s
+[Jtest] [48%] < スコープ: 51 個の入力が解析され、0 個が除外されました                                            >>> スコープ 時間 0s
+[Jtest] [51%] < 解析 > コードの重複: 51 の 51 個の入力を解析                                              >>> コードの重複 時間 2.58s
+[Jtest] [61%]   解析 > Java フロー: Parasoft Java フロー アナライザー 10.4.0.20180618B1201
+[Jtest] [62%]   解析: 0 個の違反が見つかりました。 
+[Jtest] [63%]   結果: 0 個の違反がレポートされ、処理されました 
+[Jtest] [63%]   レポート: 0 個の違反がレポートされました 
+[Jtest] [65%] < 解析 > Java フロー: 100%                                                       >>> Java フロー 時間 16.87s
+[Jtest] [72%] < 解析 > メトリクス: 解析された 51 の 51 個の入力に基づき、936 個のメトリクス値が計算されました。スキップされた入力 0       >>> メトリクス 時間 1.62s
