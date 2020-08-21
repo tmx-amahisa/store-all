@@ -3,7 +3,7 @@ package jp.co.techmatrix.servlet;
 public class ComplexClass {
 	
 	public String getAutnMode( String userID ) {
-		String authMode = null;
+		String authMode = "";
 		
 		if ( !"".equals( userID ) ) {
 			switch( userID.length() ) {

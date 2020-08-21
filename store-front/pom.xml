@@ -31,6 +31,13 @@
 
 	<dependencies>
 		<dependency>
+    <groupId>com.github.spotbugs</groupId>
+    <artifactId>spotbugs-annotations</artifactId>
+    <version>4.1.2</version>
+    <scope>provided</scope>
+</dependency>
+		
+		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 			<version>7.0</version>
@@ -72,6 +79,22 @@
 					<target>${java.version}</target>
 					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
+			</plugin>
+			<plugin>
+  				<groupId>com.github.spotbugs</groupId>
+  				<artifactId>spotbugs-maven-plugin</artifactId>
+  				<version>4.0.4</version>
+  				<configuration>
+  				 <includeFilterFile>fb_suppress.xml</includeFilterFile>
+  				</configuration>
+  				<dependencies>
+    			<!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
+    				<dependency>
+      					<groupId>com.github.spotbugs</groupId>
+      					<artifactId>spotbugs</artifactId>
+      					<version>4.1.2</version>
+    				</dependency>
+  				</dependencies>
 			</plugin>
 		</plugins>
 	</build>

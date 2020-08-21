@@ -45,6 +45,7 @@ public class Personal {
 			for ( int i = 0; i < customerList.size(); i++ ){
 				String id = customerList.get( i );
 				output.append( id );
+				
 				String customerMode = getMode( id );
 				if ( customerMode.equals( MEMBER_MODE ) ){
 					output.append( "," ).append( discountMember );
