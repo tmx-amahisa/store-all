@@ -14,7 +14,26 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<!--  build>
 
+		<plugins>
+			<plugin>
+              <groupId>org.owasp</groupId>
+              <artifactId>dependency-check-maven</artifactId>
+              <version>5.2.1</version>
+              <executions>
+                  <execution>
+                      <goals>
+                          <goal>check</goal>
+                      </goals>
+                  </execution>
+              </executions>
+              <configuration>
+              <format>XML</format>
+              </configuration>
+            </plugin>
+        </plugins>
+	</build -->
 	<modules>
 		<module>store-front</module>
 		<module>store-backend</module>

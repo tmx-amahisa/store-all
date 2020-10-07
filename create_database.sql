@@ -35,7 +35,7 @@ DROP TABLE IF EXISTS `AUTHOR`;
 CREATE TABLE `AUTHOR` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `ISBN` varchar(10) NOT NULL,
-  `NAME` varchar(35) NOT NULL,
+  `NAME` varchar(100) NOT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -121,7 +121,7 @@ DROP TABLE IF EXISTS `PUBLISHER`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `PUBLISHER` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `NAME` varchar(30) NOT NULL,
+  `NAME` varchar(100) NOT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;

@@ -1,0 +1,640 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< jp.co.techmatrix.store:store-common >-----------------
+[INFO] Building store-common 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ store-common ---
+[INFO] Deleting C:\Users\amahisa\project\sample_project\store-all\store-common\target
+[INFO] 
+[INFO] ----------------< jp.co.techmatrix.store:store-common >-----------------
+[INFO] Building store-common 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jtest-maven-plugin:1.2.16:jtest (default-cli) @ store-common ---
+[warn] Jtest: No dependency management for project store-common
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-common
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-common
+[info] Jtest: maven-compiler-plugin "source" config element found
+[warn] Jtest: No dependency management for project store-common
+[info] Jtest: maven-compiler-plugin "source" config element found
+[INFO] Jtest: Found 1 project information
+[INFO] Jtest: Json file created at: C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest\jtest.data.json
+[INFO] Jtest: Working dir: C:\Users\amahisa\project\sample_project\store-all\store-common
+[INFO] Jtest: Execute command: C:\JtestInstall\jtest_10.4.0\jtestcli  -data C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest\jtest.data.json -data.update compilations.classpath.append=C:\Users\amahisa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar -config user://Reproduction -exclude **/*Test* -exclude path:C:/Users/amahisa/project/sample_project/store-all/store-common/src/test/java/** -report C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest -fail false -workspace C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest
+Parasoft Jtest 10.4.0 (201807180918) -- Copyright (C) 2018 Parasoft Corporation
+
+[Jtest] DTP サービス: DTP サーバーが指定されていないため、無効化されました (dtp.server)
+[Jtest] DTP サービス: DTP サーバーが指定されていないため、無効化されました (dtp.server)
+[Jtest] ライセンス: Jtest 10.4 のローカル ライセンスを初期化しています
+[Jtest] ライセンス: Custom Edition をアクティブ化しています
+[Jtest] ライセンス: 機能をチェックしています ...
+[Jtest] ライセンス: メイン機能 "Jtest" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "Static Analysis" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "Flow Analysis" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "Unit Test" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "Coverage" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "Automation" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "Desktop Command Line" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "DTP Publish" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "Unit Test Bulk Creation" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "Unit Test Spring Framework" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: 機能 "Change Based Testing" ステータス: ライセンスは適切です。
+[Jtest] ライセンス: アクティベーションが完了しました: ライセンスは適切です。
+[Jtest] ライセンス: マシン ID WIN32-5728dcc6
+[Jtest] ルール更新サービスがディレクトリをスキャンしています: プロバイダー com.parasoft.jtest.rules.rulewizard.user の C:\JtestInstall\jtest_10.4.0\rules\user
+[Jtest] ルール ファイルは最新の状態です。更新がスキップされました
+[Jtest] DTP の共有リポジトリは無効化されています。有効化するには dtp.share.enabled を使用します
+[Jtest] Choosing repository: LocalSharingRepository after skipping disabled types: DTPSharingRepository, 
+[Jtest] 解析設定が原因でルールマップを更新できません。
+[Jtest] ディレクトリ C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest\.jtest\rules\team から古い共有ルールを削除しています
+[Jtest] com.parasoft.jtest.rules.rulewizard.team の共有ルールを取得しています
+[Jtest] ダウンロードされたルール: 0
+[Jtest] ルール更新サービスがディレクトリをスキャンしています: プロバイダー com.parasoft.jtest.rules.rulewizard.team の C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest\.jtest\rules\team
+[Jtest] カテゴリ説明ファイルを使用します: file:/C:/Users/amahisa/project/sample_project/store-all/store-common/target/jtest/.jtest/rules/team/categories.properties
+[Jtest] ルールが変更されています。更新を実行します
+[Jtest] ルール リフレッシュ サービスがルールを発見しました: C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest\.jtest\rules\team
+[Jtest] ルール リフレッシュ サービスが正常にルール説明ファイルを書き込みました: C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest\.jtest\rules\team\rules.xml
+[Jtest] コンフィギュレーション: Reproduction (user://Reproduction)
+[Jtest] コマンド ライン: jtestcli -data C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest\jtest.data.json -data.update compilations.classpath.append=C:\Users\amahisa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar -config user://Reproduction -exclude **/*Test* -exclude path:C:/Users/amahisa/project/sample_project/store-all/store-common/src/test/java/** -report C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest -fail false
+[Jtest] [ 0%] > テスト コンテキストを計算しています。
+[Jtest] プロジェクト "jp.co.techmatrix.store:store-common" データのビルド ID "10.4.2.20190519-20190519-2119" が Jtest のビルド ID (10.4.0.20180717-20180718-0905) と異なっています。
+[Jtest] 除外された要素:runtime_coverage
+[Jtest] 除外された要素:FileReader.java
+[Jtest] 除外された要素:DataBaseTest.java
+[Jtest] 除外された要素:AddNewBookOperationTest.java
+[Jtest] 除外された要素の数: 4
+[Jtest] [ 2%] < テスト コンテキストを計算しています。: 100% 
+[Jtest] [ 2%] > PreAnalysis
+[Jtest] [ 5%]   PreAnalysis: 100% 
+[Jtest] [ 5%] < PreAnalysis: 100% 
+[Jtest] [ 5%] > スコープ
+[Jtest] [ 5%] > スコープ > リソース フィルター
+[Jtest] [ 5%] > 解析
+[Jtest] [ 5%] > 解析 > Scope Analyzer
+[Jtest] [ 5%] > 解析 > Java 静的
+[Jtest] [ 5%] > 結果
+[Jtest] [ 5%] > 結果 > メトリクス プロセッサ
+[Jtest] [ 5%] > 結果 > スコープ プロセッサ
+[Jtest] [ 5%] > 結果 > 重複プロセッサ
+[Jtest] [ 5%] > 結果 > Rule Limit Processor
+[Jtest] 1 ルールあたりの最大違反数の制限を適用しています: 1,000 
+[Jtest] [ 5%] > 結果 > Unit Test Processor
+[Jtest] [ 5%] > 結果 > Author Processor
+[Jtest] [ 5%] > 結果 > Suppression Processor
+[Jtest] [ 5%] > 結果 > Coverage Processor
+[Jtest] [ 5%] > 結果 > Goals Processor
+[Jtest] [ 5%] > 解析
+[Jtest] [ 5%] > 解析 > グローバル
+[Jtest] メールでのレポート送信は無効化されています。有効化するには report.mail.enabled 設定を使用します。
+[Jtest] DTP へのレポートのパブリッシュは無効化されています。有効化するには report.dtp.publish 設定を使用します。
+[Jtest] [ 5%] > レポート
+[Jtest] [ 5%]   解析: /jp.co.techmatrix.store:store-common/.../runtime_coverage が解析されました
+[Jtest] [ 5%]   /jp.co.techmatrix.store:store-common/.../runtime_coverage が完了しました
+[Jtest] [ 5%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../DataStore.java
+[Jtest] [ 5%]   解析: /jp.co.techmatrix.store:store-common/.../DataStore.java が解析されました
+[Jtest] [ 5%]   /jp.co.techmatrix.store:store-common/.../DataStore.java が完了しました
+[Jtest] [ 5%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java
+[Jtest] [ 6%]   解析: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が解析されました
+[Jtest] [ 6%]   /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が完了しました
+[Jtest] [ 6%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../DataBaseTest.java
+[Jtest] [ 7%]   解析: /jp.co.techmatrix.store:store-common/.../DataBaseTest.java が解析されました
+[Jtest] [ 7%]   /jp.co.techmatrix.store:store-common/.../DataBaseTest.java が完了しました
+[Jtest] [ 7%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../AddNewBookOperationTest.java
+[Jtest] [ 9%]   解析: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationTest.java が解析されました
+[Jtest] [ 9%]   /jp.co.techmatrix.store:store-common/.../AddNewBookOperationTest.java が完了しました
+[Jtest] [ 9%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../DataBase.java
+[Jtest] [10%]   解析: /jp.co.techmatrix.store:store-common/.../DataBase.java が解析されました
+[Jtest] [10%]   /jp.co.techmatrix.store:store-common/.../DataBase.java が完了しました
+[Jtest] [10%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../FileReader.java
+[Jtest] [12%]   解析: /jp.co.techmatrix.store:store-common/.../FileReader.java が解析されました
+[Jtest] [12%]   /jp.co.techmatrix.store:store-common/.../FileReader.java が完了しました
+[Jtest] [12%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java
+[Jtest] [13%]   解析: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が解析されました
+[Jtest] [13%]   /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が完了しました
+[Jtest] [13%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java
+[Jtest] [14%]   解析: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が解析されました
+[Jtest] [14%]   /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が完了しました
+[Jtest] [14%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../Author.java
+[Jtest] [15%]   解析: /jp.co.techmatrix.store:store-common/.../Author.java が解析されました
+[Jtest] [15%]   /jp.co.techmatrix.store:store-common/.../Author.java が完了しました
+[Jtest] [15%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../Book.java
+[Jtest] [17%]   解析: /jp.co.techmatrix.store:store-common/.../Book.java が解析されました
+[Jtest] [17%]   /jp.co.techmatrix.store:store-common/.../Book.java が完了しました
+[Jtest] [17%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../Cart.java
+[Jtest] [18%]   解析: /jp.co.techmatrix.store:store-common/.../Cart.java が解析されました
+[Jtest] [18%]   /jp.co.techmatrix.store:store-common/.../Cart.java が完了しました
+[Jtest] [18%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java
+[Jtest] [19%]   解析: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が解析されました
+[Jtest] [19%]   /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が完了しました
+[Jtest] [19%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java
+[Jtest] [21%]   解析: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が解析されました
+[Jtest] [21%]   /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が完了しました
+[Jtest] [21%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../Cart_Service.java
+[Jtest] [22%]   解析: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が解析されました
+[Jtest] [22%]   /jp.co.techmatrix.store:store-common/.../Cart_Service.java が完了しました
+[Jtest] [22%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java
+[Jtest] [23%]   解析: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が解析されました
+[Jtest] [23%]   /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が完了しました
+[Jtest] [23%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java
+[Jtest] [24%]   解析: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が解析されました
+[Jtest] [24%]   /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が完了しました
+[Jtest] [24%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java
+[Jtest] [26%]   解析: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が解析されました
+[Jtest] [26%]   /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が完了しました
+[Jtest] [26%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../GetAllRegister.java
+[Jtest] [27%]   解析: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が解析されました
+[Jtest] [27%]   /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が完了しました
+[Jtest] [27%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java
+[Jtest] [29%]   解析: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が解析されました
+[Jtest] [29%]   /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が完了しました
+[Jtest] [29%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../LoginResponse.java
+[Jtest] [30%]   解析: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が解析されました
+[Jtest] [30%]   /jp.co.techmatrix.store:store-common/.../LoginResponse.java が完了しました
+[Jtest] [30%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java
+[Jtest] [32%]   解析: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が解析されました
+[Jtest] [32%]   /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が完了しました
+[Jtest] [32%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../Login.java
+[Jtest] [32%]   解析: /jp.co.techmatrix.store:store-common/.../Login.java が解析されました
+[Jtest] [32%]   /jp.co.techmatrix.store:store-common/.../Login.java が完了しました
+[Jtest] [32%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java
+[Jtest] [33%]   解析: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が解析されました
+[Jtest] [33%]   /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が完了しました
+[Jtest] [33%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../OrderLine.java
+[Jtest] [35%]   解析: /jp.co.techmatrix.store:store-common/.../OrderLine.java が解析されました
+[Jtest] [35%]   /jp.co.techmatrix.store:store-common/.../OrderLine.java が完了しました
+[Jtest] [35%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java
+[Jtest] [36%]   解析: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が解析されました
+[Jtest] [36%]   /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が完了しました
+[Jtest] [36%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../User.java
+[Jtest] [38%]   解析: /jp.co.techmatrix.store:store-common/.../User.java が解析されました
+[Jtest] [38%]   /jp.co.techmatrix.store:store-common/.../User.java が完了しました
+[Jtest] [38%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../RemoveRegister.java
+[Jtest] [39%]   解析: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が解析されました
+[Jtest] [39%]   /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が完了しました
+[Jtest] [39%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../package-info.java
+[Jtest] [40%]   解析: /jp.co.techmatrix.store:store-common/.../package-info.java が解析されました
+[Jtest] [40%]   /jp.co.techmatrix.store:store-common/.../package-info.java が完了しました
+[Jtest] [40%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../Publisher.java
+[Jtest] [41%]   解析: /jp.co.techmatrix.store:store-common/.../Publisher.java が解析されました
+[Jtest] [41%]   /jp.co.techmatrix.store:store-common/.../Publisher.java が完了しました
+[Jtest] [41%]   解析 > グローバル: 正常に解析されたファイル /jp.co.techmatrix.store:store-common/.../ObjectFactory.java
+[Jtest] [41%]   解析: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が解析されました
+[Jtest] [41%]   /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が完了しました
+[Jtest] [43%] < 解析 > グローバル: 解析された入力の数 31 の 30、スキップされた入力の数 1                               >>> グローバル 時間 0.94s
+[Jtest] [43%] < 解析: 0 個の違反が見つかりました。                                                       >>> 解析 時間 0.95s
+[Jtest] お待ちください - 保留中のデータを処理しています。処理にはしばらく時間がかかる場合があります。
+[Jtest] [43%] > スコープ > リソース フィルター > 除外するリソースのチェック
+[Jtest] [43%] < スコープ > リソース フィルター > 除外するリソースのチェック: 27 の 27 
+[Jtest] [43%]   スコープ: /jp.co.techmatrix.store:store-common/.../DataStore.java が承認されました
+[Jtest] [43%]   スコープ: /jp.co.techmatrix.store:store-common/.../DataBase.java が承認されました
+[Jtest] [43%]   スコープ: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が承認されました
+[Jtest] [43%]   スコープ: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が承認されました
+[Jtest] [43%]   スコープ: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が承認されました
+[Jtest] [43%]   スコープ: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が承認されました
+[Jtest] [44%]   スコープ: /jp.co.techmatrix.store:store-common/.../Author.java が承認されました
+[Jtest] [44%]   スコープ: /jp.co.techmatrix.store:store-common/.../Book.java が承認されました
+[Jtest] [44%]   スコープ: /jp.co.techmatrix.store:store-common/.../Cart.java が承認されました
+[Jtest] [44%]   スコープ: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が承認されました
+[Jtest] [44%]   スコープ: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が承認されました
+[Jtest] [45%]   スコープ: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が承認されました
+[Jtest] [45%]   スコープ: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が承認されました
+[Jtest] [45%]   スコープ: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が承認されました
+[Jtest] [45%]   スコープ: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が承認されました
+[Jtest] [45%]   スコープ: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が承認されました
+[Jtest] [45%]   スコープ: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が承認されました
+[Jtest] [46%]   スコープ: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が承認されました
+[Jtest] [46%]   スコープ: /jp.co.techmatrix.store:store-common/.../Login.java が承認されました
+[Jtest] [46%]   スコープ: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が承認されました
+[Jtest] [46%]   スコープ: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が承認されました
+[Jtest] [46%]   スコープ: /jp.co.techmatrix.store:store-common/.../OrderLine.java が承認されました
+[Jtest] [47%]   スコープ: /jp.co.techmatrix.store:store-common/.../package-info.java が承認されました
+[Jtest] [47%]   スコープ: /jp.co.techmatrix.store:store-common/.../Publisher.java が承認されました
+[Jtest] [47%]   スコープ: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が承認されました
+[Jtest] [47%]   スコープ: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が承認されました
+[Jtest] [47%]   スコープ: /jp.co.techmatrix.store:store-common/.../User.java が承認されました
+[Jtest] [48%] < スコープ > リソース フィルター: 27 個の入力が解析され、0 個が除外されました 
+[Jtest] [48%] < スコープ: 27 個の入力が解析され、0 個が除外されました                                            >>> スコープ 時間 0s
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../DataStore.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../DataBase.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../Author.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../Book.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../Cart.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../Login.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../OrderLine.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../package-info.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../Publisher.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が解析されました
+[Jtest] [48%]   解析 > Scope Analyzer: /jp.co.techmatrix.store:store-common/.../User.java が解析されました
+[Jtest] [48%] < 解析 > Scope Analyzer: 解析されました27 
+[Jtest] [48%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../DataStore.java に 0 個の違反が見つかりました。
+[Jtest] [48%]   解析: /jp.co.techmatrix.store:store-common/.../DataStore.java が解析されました
+[Jtest] [48%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../DataBase.java に 0 個の違反が見つかりました。
+[Jtest] [50%]   解析: /jp.co.techmatrix.store:store-common/.../DataBase.java が解析されました
+[Jtest] [50%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java に 0 個の違反が見つかりました。
+[Jtest] [50%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [50%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [50%]   解析: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が解析されました
+[Jtest] [50%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [50%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [50%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java に 0 個の違反が見つかりました。
+[Jtest] [52%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [52%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [52%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [52%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [52%]   解析: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が解析されました
+[Jtest] [52%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java に 0 個の違反が見つかりました。
+[Jtest] [54%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [54%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [54%]   解析: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が解析されました
+[Jtest] [54%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java に 0 個の違反が見つかりました。
+[Jtest] [55%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [55%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [55%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [55%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [55%]   解析: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が解析されました
+[Jtest] [55%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [55%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [55%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../Author.java に 0 個の違反が見つかりました。
+[Jtest] [57%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [57%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [57%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [57%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [57%]   解析: /jp.co.techmatrix.store:store-common/.../Author.java が解析されました
+[Jtest] [57%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../Book.java に 0 個の違反が見つかりました。
+[Jtest] [58%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [58%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [58%]   解析: /jp.co.techmatrix.store:store-common/.../Book.java が解析されました
+[Jtest] [58%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../Cart.java に 0 個の違反が見つかりました。
+[Jtest] [59%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [59%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [59%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [59%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [59%]   解析: /jp.co.techmatrix.store:store-common/.../Cart.java が解析されました
+[Jtest] [59%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [59%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [59%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java に 0 個の違反が見つかりました。
+[Jtest] [60%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [60%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [60%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [60%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [60%]   解析: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が解析されました
+[Jtest] [60%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java に 0 個の違反が見つかりました。
+[Jtest] [62%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [62%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [62%]   解析: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が解析されました
+[Jtest] [62%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../Cart_Service.java に 0 個の違反が見つかりました。
+[Jtest] [64%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [64%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [64%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [64%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [64%]   解析: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が解析されました
+[Jtest] [64%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [64%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [64%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java に 0 個の違反が見つかりました。
+[Jtest] [65%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [65%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [65%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [65%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [65%]   解析: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が解析されました
+[Jtest] [65%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java に 0 個の違反が見つかりました。
+[Jtest] [67%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [67%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [67%]   解析: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が解析されました
+[Jtest] [67%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java に 0 個の違反が見つかりました。
+[Jtest] [67%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [67%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [67%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [67%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [67%]   解析: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が解析されました
+[Jtest] [67%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [67%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [67%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java に 0 個の違反が見つかりました。
+[Jtest] [69%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [69%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [69%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [69%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [69%]   解析: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が解析されました
+[Jtest] [69%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java に 0 個の違反が見つかりました。
+[Jtest] [70%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [70%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [70%]   解析: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が解析されました
+[Jtest] [70%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java に 0 個の違反が見つかりました。
+[Jtest] [72%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [72%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [72%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [72%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [72%]   解析: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が解析されました
+[Jtest] [72%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [72%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [72%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../LoginResponse.java に 0 個の違反が見つかりました。
+[Jtest] [73%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [73%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [73%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [73%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [73%]   解析: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が解析されました
+[Jtest] [73%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../Login.java に 0 個の違反が見つかりました。
+[Jtest] [75%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [75%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [75%]   解析: /jp.co.techmatrix.store:store-common/.../Login.java が解析されました
+[Jtest] [75%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java に 0 個の違反が見つかりました。
+[Jtest] [76%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [76%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [76%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [76%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [76%]   解析: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が解析されました
+[Jtest] [76%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [76%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [76%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../OrderLine.java に 0 個の違反が見つかりました。
+[Jtest] [77%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [77%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [77%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [77%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [77%]   解析: /jp.co.techmatrix.store:store-common/.../OrderLine.java が解析されました
+[Jtest] [77%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../package-info.java に 0 個の違反が見つかりました。
+[Jtest] [78%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [78%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [78%]   解析: /jp.co.techmatrix.store:store-common/.../package-info.java が解析されました
+[Jtest] [78%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../Publisher.java に 0 個の違反が見つかりました。
+[Jtest] [80%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [80%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [80%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [80%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [80%]   解析: /jp.co.techmatrix.store:store-common/.../Publisher.java が解析されました
+[Jtest] [80%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [80%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [80%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java に 0 個の違反が見つかりました。
+[Jtest] [82%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [82%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [82%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [82%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [82%]   解析: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が解析されました
+[Jtest] [82%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../User.java に 0 個の違反が見つかりました。
+[Jtest] [83%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [83%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [83%]   解析: /jp.co.techmatrix.store:store-common/.../User.java が解析されました
+[Jtest] [83%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java に 0 個の違反が見つかりました。
+[Jtest] [86%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [86%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [86%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [86%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [86%]   解析: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が解析されました
+[Jtest] [86%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [86%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [86%] < 解析 > Java 静的: 解析された 27 の 27 個の入力に 0 個の違反が見つかり、0 個がスキップされました。              >>> Java 静的 時間 2.29s
+[Jtest] [86%] < 解析: 0 個の違反が見つかりました。                                                       >>> 解析 時間 3.23s
+[Jtest] [86%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [86%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [86%]   結果 > メトリクス プロセッサ: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [86%]   結果 > スコープ プロセッサ: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [86%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [86%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [86%] < 結果 > メトリクス プロセッサ: 0 個の違反がレポートされ、処理されました 
+[Jtest] [86%] < 結果 > スコープ プロセッサ: 0 個の違反のうち 0 個が削除されました 
+[Jtest] [86%]   結果 > 重複プロセッサ: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [86%]   結果 > Rule Limit Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [86%] < 結果 > 重複プロセッサ: 0 個の違反のうち 0 個が削除されました 
+[Jtest] [86%] < 結果 > Rule Limit Processor: 0 個の違反のうち 0 個がレポートされませんでした 
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../DataStore.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../DataStore.java が完了しました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../DataBase.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../DataBase.java が完了しました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java が完了しました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java が完了しました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java が完了しました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java が完了しました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../Author.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../Author.java が完了しました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../Book.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../Book.java が完了しました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../Cart.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../Cart.java が完了しました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [86%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [86%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [86%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [86%]   結果: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が処理されました
+[Jtest] [86%]   /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java が完了しました
+[Jtest] [86%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [86%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [87%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [87%]   結果: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が処理されました
+[Jtest] [87%]   /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java が完了しました
+[Jtest] [87%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [87%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [87%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [87%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [87%]   結果: /jp.co.techmatrix.store:store-common/.../Cart_Service.java が処理されました
+[Jtest] [87%]   /jp.co.techmatrix.store:store-common/.../Cart_Service.java が完了しました
+[Jtest] [87%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [87%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [87%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [87%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [87%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [87%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [87%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [87%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [87%]   結果: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が処理されました
+[Jtest] [87%]   /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java が完了しました
+[Jtest] [87%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [87%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [87%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [87%]   結果: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が処理されました
+[Jtest] [87%]   /jp.co.techmatrix.store:store-common/.../GetAllRegister.java が完了しました
+[Jtest] [87%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [87%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [87%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [87%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [87%]   結果: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が処理されました
+[Jtest] [87%]   /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java が完了しました
+[Jtest] [87%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [87%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [87%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [87%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [87%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [87%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [87%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [87%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [87%]   結果: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が処理されました
+[Jtest] [87%]   /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java が完了しました
+[Jtest] [87%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [87%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [88%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [88%]   結果: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が処理されました
+[Jtest] [88%]   /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java が完了しました
+[Jtest] [88%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [88%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [88%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [88%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [88%]   結果: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が処理されました
+[Jtest] [88%]   /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java が完了しました
+[Jtest] [88%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [88%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [88%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [88%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [88%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [88%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [88%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [88%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [88%]   結果: /jp.co.techmatrix.store:store-common/.../LoginResponse.java が処理されました
+[Jtest] [88%]   /jp.co.techmatrix.store:store-common/.../LoginResponse.java が完了しました
+[Jtest] [88%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [88%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [88%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [88%]   結果: /jp.co.techmatrix.store:store-common/.../Login.java が処理されました
+[Jtest] [88%]   /jp.co.techmatrix.store:store-common/.../Login.java が完了しました
+[Jtest] [88%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [88%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [88%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [88%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [88%]   結果: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が処理されました
+[Jtest] [88%]   /jp.co.techmatrix.store:store-common/.../ObjectFactory.java が完了しました
+[Jtest] [88%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [88%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [88%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [88%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [88%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [88%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [88%]   結果 > Unit Test Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [89%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [89%]   結果: /jp.co.techmatrix.store:store-common/.../OrderLine.java が処理されました
+[Jtest] [89%]   /jp.co.techmatrix.store:store-common/.../OrderLine.java が完了しました
+[Jtest] [89%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [89%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [89%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [89%]   結果: /jp.co.techmatrix.store:store-common/.../package-info.java が処理されました
+[Jtest] [89%]   /jp.co.techmatrix.store:store-common/.../package-info.java が完了しました
+[Jtest] [89%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [89%]   結果 > Author Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [89%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [89%]   結果: /jp.co.techmatrix.store:store-common/.../Publisher.java が処理されました
+[Jtest] [89%]   /jp.co.techmatrix.store:store-common/.../Publisher.java が完了しました
+[Jtest] [89%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [89%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [89%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [89%]   結果 > Suppression Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [89%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [89%]   結果: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が処理されました
+[Jtest] [89%]   /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java が完了しました
+[Jtest] [89%]   結果 > Coverage Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [89%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [89%]   結果: /jp.co.techmatrix.store:store-common/.../User.java が処理されました
+[Jtest] [89%]   /jp.co.techmatrix.store:store-common/.../User.java が完了しました
+[Jtest] [90%]   結果 > Goals Processor: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [90%]   結果: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が処理されました
+[Jtest] [90%]   /jp.co.techmatrix.store:store-common/.../RemoveRegister.java が完了しました
+[Jtest] [90%] < 結果 > Unit Test Processor: 0 個の違反がレポートされ、処理されました 
+[Jtest] [90%] < 結果 > Author Processor: 0 個の違反がレポートされ、0 個が再割り当てされました 
+[Jtest] [90%] < 結果 > Suppression Processor: 0 個の受け入れられた違反のうち 0 個が抑制されました 
+[Jtest] [90%] < 結果 > Coverage Processor: 0 個のカバレッジ情報のうち 0 個が処理されました 
+[Jtest] [95%] < 結果 > Goals Processor: 0 個の違反がレポートされ、処理されました 
+[Jtest] [95%] < 結果: 0 個の違反がレポートされ、処理されました                                                 >>> 結果 時間 0.03s
+[Jtest] [95%] < レポート: 0 個の違反がレポートされました                                                    >>> レポート 時間 0.1s
+[Jtest] [95%]                                                                             >>> 合計時間 6.09s
+[Jtest] [95%] > レポーターを終了しています。
+[Jtest] スコープ内のファイル: 27
+[Jtest] 違反されたルール: 0/5
+[Jtest] 有効化されたメトリクス: -
+[Jtest] 静的解析違反:0
+[Jtest] 単体テストの失敗:0
+[Jtest] 実行されたテスト ケース: 0
+[Jtest] カバレッジ: 0/0 行 (0% カバー済み)
+[Jtest] 実行時間 (秒) : 9
+[Jtest] [95%]   レポーターを終了しています。: 14% 
+[Jtest] 解析中に次のセットアップの問題が発生しました:
+[Jtest]   プロジェクトのコンパイルの問題:
+[Jtest]     - プロジェクト jp.co.techmatrix.store:store-common にコンパイルの問題があります
+[Jtest]   コンパイル セットアップの問題:
+[Jtest]     - 静的解析の実行中にコンパイル エラー:
+[Jtest]        C:\Users\amahisa\project\sample_project\store-all\store-common\src\test\java\jp\co\techmatrix\jdbc\DataBaseTest.java:9: The import org.junit cannot be resolved
+[Jtest]     - 静的解析の実行中にコンパイル エラー:
+[Jtest]        C:\Users\amahisa\project\sample_project\store-all\store-common\src\test\java\jp\co\techmatrix\store\services\soap\AddNewBookOperationTest.java:3: The import org.junit cannot be resolved
+[Jtest] XML レポートが生成されました: C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest\report.xml
+[Jtest] HTML レポートが生成されました: C:\Users\amahisa\project\sample_project\store-all\store-common\target\jtest\report.html
+[Jtest] [96%]   レポーターを終了しています。: 28% 
+[Jtest] [100%] < レポーターを終了しています。: 100% 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.512 s
+[INFO] Finished at: 2019-07-04T17:33:14+09:00
+[INFO] ------------------------------------------------------------------------

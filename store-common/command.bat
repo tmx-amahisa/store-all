@@ -1,1 +1,1 @@
-mvn clean test jtest:jtest -settings "C:\apache-maven-3.5.4\jtest_settings.xml" -Djtest.config="user://Reproduction" -DskipTests=true -Djtest.dataUpdate=compilations.classpath.append="C:\Users\amahisa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar" 
+mvn clean test-compile jtest:jtest -settings "C:\apache-maven-3.5.4\jtest_settings.xml" -Djtest.config="user://Reproduction" -DskipTests=true -Djtest.dataUpdate=compilations.classpath.append="C:\Users\amahisa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar"  -Djtest.exclude=**/*Test*

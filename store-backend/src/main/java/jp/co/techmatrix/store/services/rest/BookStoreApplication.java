@@ -34,7 +34,7 @@ public class BookStoreApplication extends Application{
 	    beanConfig.setSchemes(new String[] {"http"});
 	    String hostname = "localhost";
 	    
-	    beanConfig.setHost(hostname + ":9090");
+	    beanConfig.setHost(hostname + ":8080");
 	    beanConfig.setBasePath("/store-backend" + APPLICATION_PATH);
 	    beanConfig.setResourcePackage("jp.co.techmatrix.store.services.rest");
 	    beanConfig.setScan(true);

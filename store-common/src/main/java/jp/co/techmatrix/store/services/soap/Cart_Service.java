@@ -15,7 +15,7 @@ import javax.xml.ws.Service;
  * 
  */
 @WebServiceClient(name = "cart", 
-                  wsdlLocation = "http://localhost:9090/store-backend/cart?wsdl",
+                  wsdlLocation = "http://localhost:8080/store-backend/cart?wsdl",
                   targetNamespace = "http://soap.services.store.techmatrix.co.jp/") 
 public class Cart_Service extends Service {
 
@@ -26,11 +26,11 @@ public class Cart_Service extends Service {
     static {
         URL url = null;
         try {
-            url = new URL("http://localhost:9090/store-backend/cart?wsdl");
+            url = new URL("http://localhost:8080/store-backend/cart?wsdl");
         } catch (MalformedURLException e) {
             java.util.logging.Logger.getLogger(Cart_Service.class.getName())
                 .log(java.util.logging.Level.INFO, 
-                     "Can not initialize the default wsdl from {0}", "http://localhost:9090/store-backend/cart?wsdl");
+                     "Can not initialize the default wsdl from {0}", "http://localhost:8080/store-backend/cart?wsdl");
         }
         WSDL_LOCATION = url;
     }

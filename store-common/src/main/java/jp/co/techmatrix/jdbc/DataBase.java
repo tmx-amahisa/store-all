@@ -38,7 +38,7 @@ public class DataBase implements Closeable{
 	 */
 	public DataBase() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{
 		super();
-		
+		 
 		// JDBCドライバの読み込み
 		Class.forName(DRIVER_NAME).newInstance();
 		con = getConnection();
@@ -70,6 +70,8 @@ public class DataBase implements Closeable{
 					ret.add(rs.getString("TITLE"));
 				}
 			}
+			rs.close();
+			stmt.close();
 		}catch(SQLException e){
 			e.printStackTrace();
 			ret = null;
@@ -85,13 +87,13 @@ public class DataBase implements Closeable{
 //			}
 			
 			// Statementのクローズ
-//			if(stmt != null){
-//				try{
-//					stmt.close();
-//				}catch(SQLException e){
-//					e.printStackTrace();
-//				}
-//			}
+			if(stmt != null){
+				try{
+					stmt.close();
+				}catch(SQLException e){
+					e.printStackTrace();
+				}
+			}
 		}
 		
 		return ret;
@@ -106,7 +108,7 @@ public class DataBase implements Closeable{
 		List<String> ret = new ArrayList<>();
 		Statement stmt = null;
 		ResultSet rs = null;
-		
+		 
 		try{
 			// statementの追加
 			stmt = this.con.createStatement();
