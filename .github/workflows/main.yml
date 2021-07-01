@@ -34,7 +34,7 @@ jobs:
       uses: parasoft/run-jtest-action@0.0.2
       with:
         #Uses the jtest.data.json generated with the Maven command in the previous step
-        input: build/jtest/jtest.data.json
+        input: target/jtest/jtest.data.json
         installDir: C:\JtestInstall\jtest_2021.1
         reportFormat: xml,html,custom
         additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
