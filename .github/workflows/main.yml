@@ -21,7 +21,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
-    
+    - name: Clone
+      uses: actions/checkout@v2
+      
     # Generates the jtest.data.json input file.
     - name: Create input for Jtest
       run: mvn clean install jtest:jtest "-Djtest.skip=true" 
