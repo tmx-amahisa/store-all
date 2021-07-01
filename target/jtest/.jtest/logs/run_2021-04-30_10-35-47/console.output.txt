@@ -1,0 +1,285 @@
+匿名の使用状況データの送信は無効です。有効化するには usage.reporting.enabled を使用します
+ライセンス: マシン ID WIN32-5728dcc6
+ダウンロードされたルール: 0
+ルールが変更されています。更新を実行します
+コンフィギュレーション: Recommended Rules (builtin://Recommended Rules)
+コマンド ライン: jtestcli -data C:\Users\amahisa\project\sample_project\store-all\target\jtest\jtest.data.json -exclude C:\Users\amahisa\project\sample_project\store-all\target\jtest\testExcludes.lst -report C:\Users\amahisa\project\sample_project\store-all\target\jtest -fail false -monitor false
+[ 0%] > テスト コンテキストを計算しています。
+除外された要素の数: 22
+[ 2%] < テスト コンテキストを計算しています。: 100% 
+[ 2%] > PreAnalysis
+[ 5%]   PreAnalysis: 100% 
+[ 5%] < PreAnalysis: 100% 
+[ 5%] > スコープ
+[ 5%] > スコープ > リソース フィルター
+コードの重複: 2 個のアクティブなルールを持つパーサーが有効化されています。
+コードの重複: 重複の検出が有効化されています。
+[ 5%] > 解析
+[ 5%] > 解析 > コードの重複
+[ 5%] > 解析 > Java フロー
+[ 5%] > 解析 > メトリクス
+[ 5%] > 解析 > Java 静的
+[ 5%] > 解析 > プロパティ静的
+[ 5%] > 解析 > RuleWizard 静的
+[ 5%] > 解析 > XML 静的
+[ 5%] > 結果
+[ 5%] > 結果 > メトリクス プロセッサ
+[ 5%] > 結果 > スコープ プロセッサ
+[ 5%] > 結果 > 重複プロセッサ
+[ 5%] > 結果 > Tokens Mismatch Filter Processor
+[ 5%] > 結果 > Rule Limit Processor
+[ 5%] > 結果 > Author Processor
+[ 5%] > 結果 > Suppression Processor
+[ 5%] > 結果 > Coverage Processor
+[ 5%] > 結果 > Goals Processor
+[ 5%] > 解析
+[ 5%] > 解析 > IOC
+メールでのレポート送信は無効化されています。有効化するには report.mail.enabled 設定を使用します。
+DTP へのレポートのパブリッシュは無効化されています。有効化するには report.dtp.publish 設定を使用します。
+[ 5%] > レポート
+[43%] < 解析 > IOC: 解析された入力の数 79 の 0、スキップされた入力の数 79                                 >>> IOC 時間 0.01s
+[43%] < 解析: 0 個の違反が見つかりました。                                                       >>> 解析 時間 0.15s
+[48%] < スコープ > リソース フィルター: 57 個の入力が解析され、0 個が除外されました 
+[48%] < スコープ: 57 個の入力が解析され、0 個が除外されました                                            >>> スコープ 時間 0s
+[50%] < 解析 > コードの重複: 57 の 57 個の入力を解析                                              >>> コードの重複 時間 3.29s
+[60%]   解析 > Java フロー: Parasoft Java フロー アナライザー 10.5.1.20210401B2634
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../CartResource.java の 9 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../AbstractCart.java の 7 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../Book.java の 21 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../Publisher.java の 7 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../OrderLine.java の 13 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../Author.java の 9 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../Cart.java の 9 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../User.java の 25 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../BookStoreApplication.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java の 1 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java の 1 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../DataStore.java の 5 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Author.java の 7 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../DataBase.java の 6 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java の 1 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Cart_Service.java の 9 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Book.java の 21 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../LoginResponse.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Login.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java の 41 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java の 5 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Publisher.java の 5 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../User.java の 10 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../OrderLine.java の 11 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../SuccessView.java の 4 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../MLtest_1.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../CartProducer.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../MLtest_2.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../RegisterView.java の 7 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../CartView.java の 7 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../LoggerProducer.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../ResultView.java の 7 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../MLtest_3.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../DataService.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../DetailView.java の 7 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../IndexView.java の 8 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../HeaderView.java の 23 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../ToupperCall.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../Toupper.java の 4 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../DBServlet.java の 4 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../TestBean.java の 5 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../Personal.java の 6 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../ComplexClass.java の 2 個のグラフが作成されました
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-maintenance/.../IndexView.java の 3 個のグラフが作成されました
+[60%]   解析 > Java フロー > グラフのスキャン: 制御フロー グラフのプリスキャンを初期化しています
+[60%]   解析 > Java フロー > グラフのスキャン: 制御フロー グラフをプリスキャンしています。0% 実行済み
+[60%]   解析 > Java フロー > グラフのスキャン: 制御フロー グラフをプリスキャンしています。27% 実行済み
+[60%]   解析 > Java フロー > グラフのスキャン: 制御フロー グラフをプリスキャンしています。55% 実行済み
+[60%]   解析 > Java フロー > グラフのスキャン: 制御フロー グラフをプリスキャンしています。83% 実行済み
+[60%]   解析 > Java フロー > グラフのスキャン: 制御フロー グラフをプリスキャンしています。100% 実行済み
+[60%] > 解析 > Java フロー > グラフのスキャン > メソッドを処理しています: 例外情報を収集しています。フェーズ 1
+[60%] < 解析 > Java フロー > グラフのスキャン > メソッドを処理しています: 例外情報を収集しています。フェーズ 1: 100% 
+[60%]   解析 > Java フロー > グラフのスキャン: 制御フロー グラフのプリスキャンを終了しています
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../ComplexClass.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../HeaderView.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../DataBase.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../User.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../Personal.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../Book.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../IndexView.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../AbstractCart.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Book.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../DBServlet.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Cart_Service.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../DetailView.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../ResultView.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../OrderLine.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../BookStoreApplication.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../CartView.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../User.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-maintenance/.../IndexView.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../DataService.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../OrderLine.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../Author.java をチェック中
+[60%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../Cart.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../CartResource.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../RegisterView.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../Publisher.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Author.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../MLtest_3.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../TestBean.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../Toupper.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../ToupperCall.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../MLtest_2.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../CartProducer.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Publisher.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../DataStore.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java をチェック中
+[61%]   解析: 0 個の違反が見つかりました。 
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../SuccessView.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../LoggerProducer.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../MLtest_1.java をチェック中
+[61%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Login.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../LoginResponse.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../Cart.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../CartInterface.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-common/.../package-info.java をチェック中
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../Toupper.java に 1 個の違反が見つかりました。
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../MLtest_2.java に 1 個の違反が見つかりました。
+[62%]   解析 > Java フロー: /jp.co.techmatrix.store:store-backend/.../User.java に 2 個の違反が見つかりました。
+[62%]   結果: 0 個の違反がレポートされ、処理されました 
+[62%]   レポート: 0 個の違反がレポートされました 
+[64%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../DataService.java に 4 個の違反が見つかりました。
+[64%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../MLtest_1.java に 1 個の違反が見つかりました。
+[64%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../MLtest_3.java に 1 個の違反が見つかりました。
+[64%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../DetailView.java に 1 個の違反が見つかりました。
+[64%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../ToupperCall.java に 1 個の違反が見つかりました。
+[64%]   解析 > Java フロー: /jp.co.techmatrix.store:store-front/.../Personal.java に 1 個の違反が見つかりました。
+[64%] < 解析 > Java フロー: 100%                                                       >>> Java フロー 時間 10.29s
+[64%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../AddNewBookOperation.java の 7 個のメトリクス値が計算されました
+[64%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../DataStore.java の 13 個のメトリクス値が計算されました
+[64%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../Author.java の 19 個のメトリクス値が計算されました
+[64%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../AddNewBookOperationResponse.java の 1 個のメトリクス値が計算されました
+[64%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../AddRegisterOperation.java の 4 個のメトリクス値が計算されました
+[65%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../AddRegisterOperationResponse.java の 1 個のメトリクス値が計算されました
+[65%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../DataBase.java の 16 個のメトリクス値が計算されました
+[65%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../DeleteBookOperationResponse.java の 1 個のメトリクス値が計算されました
+[65%]   レポート: 0 個の違反がレポートされました 
+[66%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../GetAllRegister.java の 7 個のメトリクス値が計算されました
+[66%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../Cart.java の 25 個のメトリクス値が計算されました
+[66%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../Book.java の 58 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../DeleteBookOperation.java の 7 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../Cart_Service.java の 28 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../GetAllRegisterResponse.java の 4 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperation.java の 7 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperation.java の 7 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../LoginResponse.java の 7 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../ObjectFactory.java の 121 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../GetItemByIdOperationResponse.java の 7 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../GetItemByTitleOperationResponse.java の 4 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../Login.java の 7 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-maintenance/.../IndexView.java の 4 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../RemoveRegisterResponse.java の 4 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../Publisher.java の 13 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../OrderLine.java の 31 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../RemoveRegister.java の 13 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../package-info.java の 1 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-common/.../User.java の 28 個のメトリクス値が計算されました
+[67%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../AbstractCart.java の 19 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../Author.java の 25 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../Publisher.java の 19 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../OrderLine.java の 37 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../CartInterface.java の 25 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../Book.java の 61 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../User.java の 58 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../DetailView.java の 16 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../IndexView.java の 19 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../BookStoreApplication.java の 7 個のメトリクス値が計算されました
+[68%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../Cart.java の 25 個のメトリクス値が計算されました
+[69%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../CartView.java の 16 個のメトリクス値が計算されました
+[69%]   解析 > メトリクス: /jp.co.techmatrix.store:store-backend/.../CartResource.java の 25 個のメトリクス値が計算されました
+[69%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../HeaderView.java の 64 個のメトリクス値が計算されました
+[69%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../MLtest_1.java の 4 個のメトリクス値が計算されました
+[69%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../ResultView.java の 16 個のメトリクス値が計算されました
+[69%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../LoggerProducer.java の 4 個のメトリクス値が計算されました
+[69%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../SuccessView.java の 7 個のメトリクス値が計算されました
+[70%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../RegisterView.java の 16 個のメトリクス値が計算されました
+[70%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../CartProducer.java の 4 個のメトリクス値が計算されました
+[70%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../DataService.java の 4 個のメトリクス値が計算されました
+[70%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../DBServlet.java の 10 個のメトリクス値が計算されました
+[70%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../Toupper.java の 13 個のメトリクス値が計算されました
+[70%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../MLtest_2.java の 4 個のメトリクス値が計算されました
+[70%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../ComplexClass.java の 4 個のメトリクス値が計算されました
+[71%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../MLtest_3.java の 4 個のメトリクス値が計算されました
+[71%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../TestBean.java の 13 個のメトリクス値が計算されました
+[71%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../ToupperCall.java の 7 個のメトリクス値が計算されました
+[71%]   解析 > メトリクス: /jp.co.techmatrix.store:store-front/.../Personal.java の 13 個のメトリクス値が計算されました
+[71%] < 解析 > メトリクス: 解析された 57 の 57 個の入力に基づき、984 個のメトリクス値が計算されました。スキップされた入力 0       >>> メトリクス 時間 2.52s
+[71%]   解析: 13 個の違反が見つかりました。 
+[72%]   解析 > Java 静的: /jp.co.techmatrix.store:store-maintenance/.../IndexView.java に 2 個の違反が見つかりました。
+[74%]   解析 > Java 静的: /jp.co.techmatrix.store:store-backend/.../User.java に 1 個の違反が見つかりました。
+[74%]   解析 > Java 静的: /jp.co.techmatrix.store:store-backend/.../Publisher.java に 1 個の違反が見つかりました。
+[75%]   解析 > Java 静的: /jp.co.techmatrix.store:store-common/.../DataBase.java に 1 個の違反が見つかりました。
+[75%]   解析 > Java 静的: /jp.co.techmatrix.store:store-front/.../DataService.java に 1 個の違反が見つかりました。
+[77%]   解析 > Java 静的: /jp.co.techmatrix.store:store-front/.../Personal.java に 1 個の違反が見つかりました。
+[77%]   解析 > Java 静的: /jp.co.techmatrix.store:store-front/.../CartView.java に 2 個の違反が見つかりました。
+[77%]   解析 > Java 静的: /jp.co.techmatrix.store:store-front/.../HeaderView.java に 1 個の違反が見つかりました。
+[77%] < 解析 > Java 静的: 解析された 57 の 57 個の入力に 10 個の違反が見つかり、0 個がスキップされました。             >>> Java 静的 時間 4.56s
+[77%]   結果: 12 個の違反がレポートされ、処理されました                                                >>> 結果 ETA 0m1s
+[81%] < 解析 > プロパティ静的: 解析された 57 の 0 個の入力に 0 個の違反が見つかり、57 個がスキップされました。              >>> プロパティ静的 時間 0s
+[81%]   解析: 23 個の違反が見つかりました。 
+[85%]   解析 > RuleWizard 静的: /jp.co.techmatrix.store:store-backend/.../User.java に 1 個の違反が見つかりました。
+[86%]   解析 > RuleWizard 静的: /jp.co.techmatrix.store:store-front/.../TestBean.java に 1 個の違反が見つかりました。
+[87%] < 解析 > RuleWizard 静的: 解析された 57 の 57 個の入力に 2 個の違反が見つかり、0 個がスキップされました。        >>> RuleWizard 静的 時間 16.93s
+[89%] < 解析 > XML 静的: 解析された 57 の 0 個の入力に 0 個の違反が見つかり、57 個がスキップされました。               >>> XML 静的 時間 0s
+[89%] < 解析: 25 個の違反が見つかりました。                                                      >>> 解析 時間 37.87s
+[89%] < 結果 > メトリクス プロセッサ: 26 個の違反がレポートされ、処理されました 
+[89%] < 結果 > スコープ プロセッサ: 26 個の違反のうち 0 個が削除されました 
+[89%]   結果: 12 個の違反がレポートされ、処理されました 
+[89%]   レポート: 12 個の違反がレポートされました 
+[91%] < 結果 > 重複プロセッサ: 10 個の違反のうち 0 個が削除されました 
+[91%] < 結果 > Tokens Mismatch Filter Processor: 26 個の違反がレポートされ、処理されました 
+[91%] < 結果 > Rule Limit Processor: 26 個の違反のうち 0 個がレポートされませんでした 
+[93%] < 結果 > Author Processor: 26 個の違反がレポートされ、0 個が再割り当てされました 
+[93%] < 結果 > Suppression Processor: 26 個の受け入れられた違反のうち 0 個が抑制されました 
+[93%] < 結果 > Coverage Processor: 0 個のカバレッジ情報のうち 0 個が処理されました 
+[93%] < 結果 > Goals Processor: 26 個の違反がレポートされ、処理されました 
+[95%] < 結果: 26 個の違反がレポートされ、処理されました                                                >>> 結果 時間 0.81s
+[95%] < レポート: 26 個の違反がレポートされました                                                   >>> レポート 時間 0.59s
+[95%]                                                                             >>> 合計時間 44.86s
+[95%] > レポーターを終了しています。
+スコープ内のファイル: 57
+違反されたルール: 14/190
+有効化されたメトリクス:4
+静的解析違反:26
+抑制された違反: 0
+単体テストの失敗:0
+実行されたテスト ケース: 0
+カバレッジ: 0/0 行 (0% カバー済み)
+実行時間 (秒) : 57
+[95%]   レポーターを終了しています。: 12% 
+XML レポートが生成されました: C:\Users\amahisa\project\sample_project\store-all\target\jtest\report.xml
+HTML レポートが生成されました: C:\Users\amahisa\project\sample_project\store-all\target\jtest\report.html
+[96%]   レポーターを終了しています。: 25% 
+XML レポートが生成されました: C:\Users\amahisa\project\sample_project\store-all\target\jtest\metrics.xml
+[100%] < レポーターを終了しています。: 100% 

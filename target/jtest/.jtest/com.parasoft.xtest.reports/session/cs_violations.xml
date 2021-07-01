@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mergePnt id="csViolations">
+  <StdViols>
+    <StdViol msg="変数 retArray は決して使用されない" ln="55" locFile="/jp.co.techmatrix.store:store-common/src/main/java/jp/co/techmatrix/jdbc/DataBase.java" locStartln="55" sev="3" auth="kosugi" locRef="2" rule="UC.AURV" lnHash="971824367" pkg="jp.co.techmatrix.jdbc" rule.header="決して読まれないローカル変数の使用を避ける" tool="jtest" lineHash="971824367" locStartPos="9" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="17" locType="sr" urgent="true" hash="-527716897" locEndLn="55" goals="1," />
+    <StdViol msg="変数 con は代入されているが決して読まれない" ln="33" locFile="/jp.co.techmatrix.store:store-maintenance/src/main/java/jp/co/techmatrix/maintenance/IndexView.java" locStartln="33" sev="3" auth="kosugi" locRef="28" rule="UC.AURV" lnHash="1165196369" pkg="jp.co.techmatrix.maintenance" rule.header="決して読まれないローカル変数の使用を避ける" tool="jtest" lineHash="1165196369" locStartPos="13" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="16" locType="sr" urgent="true" hash="177407265" locEndLn="33" goals="1," />
+    <StdViol msg="変数 con は代入されているが決して読まれない" ln="38" locFile="/jp.co.techmatrix.store:store-maintenance/src/main/java/jp/co/techmatrix/maintenance/IndexView.java" locStartln="38" sev="3" auth="kosugi" locRef="28" rule="UC.AURV" lnHash="1234870316" pkg="jp.co.techmatrix.maintenance" rule.header="決して読まれないローカル変数の使用を避ける" tool="jtest" lineHash="1234870316" locStartPos="3" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="6" locType="sr" urgent="true" hash="177407265" locEndLn="38" goals="1," />
+    <StdViol msg="List&lt;Book> フィールド books は一度も読まれない" ln="35" locFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/Publisher.java" locStartln="35" sev="3" auth="uchida" locRef="32" rule="UC.AURCO" lnHash="-159535116" pkg="jp.co.techmatrix.store.model" rule.header="一度も読まれない Collection を避ける" tool="jtest" lineHash="-159535116" locStartPos="20" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="25" locType="sr" urgent="true" hash="-1752196166" locEndLn="35" goals="1," />
+    <StdViol msg="メンバー クラスを static として宣言できる: userInnerClass" ln="35" locFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" locStartln="35" sev="3" auth="kosugi" locRef="33" rule="OPT.SI" lnHash="-2070492608" pkg="jp.co.techmatrix.store.model" rule.header="可能であれば内部クラスを static として宣言する" tool="jtest" lineHash="-2070492608" locStartPos="15" analyzer="com.parasoft.jtest.standards.checkers.rulewizard" lang="java" locEndPos="29" locType="sr" urgent="true" hash="331210609" locEndLn="35" goals="1," />
+    <FlowViol msg="パラメーター str の値は常に上書きされるが 1 回も使用されない" ln="37" locFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" ruleSAFMsg="上書きされるパラメーターが宣言されているメソッド" FirstElSrcRngEndPos="13" auth="kosugi" FirstElSrcRngEndLn="38" rule="BD.PB.POVR" FirstElSrcRngStartPos="4" lnHash="-302381259" ruleSCSCMsg="パラメーター値が上書きされるポイント" pkg="jp.co.techmatrix.store.model" FirstElSrcRngFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" rule.header="使用前にメソッド パラメーターを上書きすることを避ける" FirstElSrcRngStartln="38" locStartPos="15" analyzer="com.parasoft.jtest.flowanalyzer" id="1788821605" lang="java" locEndPos="40" urgent="true" locEndLn="37" goals="1," locStartln="37" sev="1" locRef="33" tool="jtest" lineHash="-302381259" locType="sr" hash="331210609" causeLocRef="33">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-302381259" locType="sr" srcRnghash="331210609" locRef="33" srcRngFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" srcRngEndLn="37" ln="37" srcRngEndPos="40" srcRngStartln="37" srcRngStartPos="15" desc="methodNest( String str )" ElType=".P" rngLn="37">
+          <Anns>
+            <Ann msg="上書きされるパラメーターが宣言されているメソッド" kind="point" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-271867735" locType="sr" srcRnghash="331210609" locRef="33" srcRngFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" srcRngEndLn="38" ln="38" srcRngEndPos="13" srcRngStartln="38" srcRngStartPos="4" desc="str = &quot;&quot;;" ElType=".C" rngLn="38">
+          <Anns>
+            <Ann msg="パラメーター値が上書きされるポイント" kind="cause" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="'innerClass' と同じ名前または大文字/小文字だけが異なる別の変数がこのスコープ中に存在する" ln="62" locFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" locStartln="62" sev="3" auth="kosugi" locRef="33" rule="NAMING.UUVN" lnHash="1880212277" pkg="jp.co.techmatrix.store.model" rule.header="同じ名前または大文字/小文字の使用だけが違う変数名を使用してはいけない" tool="jtest" lineHash="1880212277" locStartPos="19" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="29" locType="sr" urgent="true" hash="331210609" locEndLn="62" goals="1," />
+    <FlowViol msg="パラメーター str の値は常に上書きされるが 1 回も使用されない" ln="70" locFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" ruleSAFMsg="上書きされるパラメーターが宣言されているメソッド" FirstElSrcRngEndPos="14" auth="kosugi" FirstElSrcRngEndLn="71" rule="BD.PB.POVR" FirstElSrcRngStartPos="5" lnHash="2139590995" ruleSCSCMsg="パラメーター値が上書きされるポイント" pkg="jp.co.techmatrix.store.model" FirstElSrcRngFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" rule.header="使用前にメソッド パラメーターを上書きすることを避ける" FirstElSrcRngStartln="71" locStartPos="16" analyzer="com.parasoft.jtest.flowanalyzer" id="1788821605" lang="java" locEndPos="42" urgent="true" locEndLn="70" goals="1," locStartln="70" sev="1" locRef="33" tool="jtest" lineHash="2139590995" locType="sr" hash="331210609" causeLocRef="33">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="2139590995" locType="sr" srcRnghash="331210609" locRef="33" srcRngFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" srcRngEndLn="70" ln="70" srcRngEndPos="42" srcRngStartln="70" srcRngStartPos="16" desc="method_anon( String str )" ElType=".P" rngLn="70">
+          <Anns>
+            <Ann msg="上書きされるパラメーターが宣言されているメソッド" kind="point" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-526928064" locType="sr" srcRnghash="331210609" locRef="33" srcRngFile="/jp.co.techmatrix.store:store-backend/src/main/java/jp/co/techmatrix/store/model/User.java" srcRngEndLn="71" ln="71" srcRngEndPos="14" srcRngStartln="71" srcRngStartPos="5" desc="str = &quot;&quot;;" ElType=".C" rngLn="71">
+          <Anns>
+            <Ann msg="パラメーター値が上書きされるポイント" kind="cause" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="フィールド TAX_FREE_LIMIT はメソッド total でしか使用されていない" ln="69" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/CartView.java" locStartln="69" sev="3" auth="kosugi" locRef="39" rule="OPT.CTLV" lnHash="548902746" pkg="jp.co.techmatrix.faces.bean" rule.header="1 つのメソッド内でだけアクセスされる private フィールドを使用しない。ローカル変数に変更する" tool="jtest" lineHash="548902746" locStartPos="13" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="27" locType="sr" urgent="true" hash="39775297" locEndLn="69" goals="1," />
+    <StdViol msg="フィールド TAX はメソッド total でしか使用されていない" ln="70" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/CartView.java" locStartln="70" sev="3" auth="kosugi" locRef="39" rule="OPT.CTLV" lnHash="1232121205" pkg="jp.co.techmatrix.faces.bean" rule.header="1 つのメソッド内でだけアクセスされる private フィールドを使用しない。ローカル変数に変更する" tool="jtest" lineHash="1232121205" locStartPos="16" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="19" locType="sr" urgent="true" hash="39775297" locEndLn="70" goals="1," />
+    <FlowViol msg="&quot;factory&quot; は null の可能性がある" ln="103" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" ruleSAFMsg="NullPointerException ポイント" FirstElSrcRngEndPos="33" auth="kosugi" FirstElSrcRngEndLn="97" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="2" lnHash="980200148" ruleSCSCMsg="NULL 値のソース" pkg="jp.co.techmatrix.faces.bean" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" rule.header="NullPointerException を避ける" FirstElSrcRngStartln="97" locStartPos="2" analyzer="com.parasoft.jtest.flowanalyzer" id="-800963906" lang="java" locEndPos="80" urgent="true" locEndLn="103" goals="1," locStartln="103" sev="1" locRef="40" tool="jtest" lineHash="980200148" locType="sr" hash="146406665" causeLocRef="40">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="833652856" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="79" ln="79" srcRngEndPos="22" srcRngStartln="79" srcRngStartPos="2" desc="if(this.count == 0){" ElType="." rngLn="79">
+          <Anns>
+            <Ann msg="条件評価: (this.count == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-477131625" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="85" ln="85" srcRngEndPos="40" srcRngStartln="85" srcRngStartPos="2" desc="OrderLine orderLine = new OrderLine();" ElType="." rngLn="85" />
+        <ElDesc lineHash="1454330690" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="88" ln="88" srcRngEndPos="31" srcRngStartln="88" srcRngStartPos="2" desc="orderLine.setBook(this.book);" ElType="." rngLn="88">
+          <ElDescList>
+            <ElDesc lineHash="-415285708" locType="sr" srcRnghash="-939548347" locRef="22" srcRngFile="/jp.co.techmatrix.store:store-common/src/main/java/jp/co/techmatrix/store/services/soap/OrderLine.java" srcRngEndLn="72" ln="72" srcRngEndPos="26" srcRngStartln="72" srcRngStartPos="8" desc="this.book = value;" ElType="." rngLn="72" />
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="1641060608" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="91" ln="91" srcRngEndPos="33" srcRngStartln="91" srcRngStartPos="2" desc="orderLine.setCount(this.count);" ElType="." rngLn="91">
+          <ElDescList>
+            <ElDesc lineHash="1310191470" locType="sr" srcRnghash="-939548347" locRef="22" srcRngFile="/jp.co.techmatrix.store:store-common/src/main/java/jp/co/techmatrix/store/services/soap/OrderLine.java" srcRngEndLn="88" ln="88" srcRngEndPos="27" srcRngStartln="88" srcRngStartPos="8" desc="this.count = value;" ElType="." rngLn="88" />
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="1990734748" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="94" ln="94" srcRngEndPos="45" srcRngStartln="94" srcRngStartPos="2" desc="Calendar calendar = Calendar.getInstance();" ElType="." rngLn="94" />
+        <ElDesc lineHash="-1846474239" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="97" ln="97" srcRngEndPos="33" srcRngStartln="97" srcRngStartPos="2" desc="DatatypeFactory factory = null;" ElType=".C" rngLn="97">
+          <Props>
+            <Prop key="Tracked variables" val="factory" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: factory" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-223372305" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="99" ln="99" srcRngEndPos="42" srcRngStartln="99" srcRngStartPos="3" desc="factory = DatatypeFactory.newInstance()" ElType="!E" rngLn="99" thrownTypes="DatatypeConfigurationException" throwingMethod="DatatypeFactory.newInstance">
+          <Anns>
+            <Ann msg="DatatypeFactory.newInstance() が DatatypeConfigurationException をスロー" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1451404542" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="100" ln="100" srcRngEndPos="42" srcRngStartln="100" srcRngStartPos="3" desc="catch(DatatypeConfigurationException e)" ElType="." rngLn="100" />
+        <ElDesc lineHash="-2138030718" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="101" ln="101" srcRngEndPos="23" srcRngStartln="101" srcRngStartPos="3" desc="e.printStackTrace();" ElType="." rngLn="101" />
+        <ElDesc lineHash="980200148" locType="sr" srcRnghash="146406665" locRef="40" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/DetailView.java" srcRngEndLn="103" ln="103" srcRngEndPos="80" srcRngStartln="103" srcRngStartPos="2" desc="XMLGregorianCalendar xmlGregorianCalendar = factory.newXMLGregorianCalendar();" ElType=".P" rngLn="103">
+          <Props>
+            <Prop key="Tracked variables" val="factory" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: factory" kind="var" />
+            <Ann msg="NullPointerException ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="オブジェクト同士の比較に '!=' を使用している。 equals () を使用するべきである" ln="199" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/faces/bean/HeaderView.java" locStartln="199" sev="2" auth="kosugi" locRef="41" rule="PB.CUB.UEIC" lnHash="-735047439" pkg="jp.co.techmatrix.faces.bean" rule.header="オブジェクト同士の比較に '==' または '!=' を使用しない" tool="jtest" lineHash="-735047439" locStartPos="6" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="47" locType="sr" urgent="true" hash="-572087541" locEndLn="199" goals="1," />
+    <StdViol msg="フィールド con が使用されているが、null 以外の値が代入されていない" ln="12" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" locStartln="12" sev="2" auth="amahisa" locRef="48" rule="PB.USC.FCBS" lnHash="440398869" pkg="jp.co.techmatrix.ml" rule.header="意味のある値が与えられない  private フィールドの使用を避ける" tool="jtest" lineHash="440398869" locStartPos="20" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="23" locType="sr" urgent="true" hash="1879113894" locEndLn="12" goals="1," />
+    <FlowViol msg="&quot;this.con&quot; は明示的な初期化の前に使用されている" ln="23" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" ruleSAFMsg="使用ポイント" FirstElSrcRngEndPos="24" auth="amahisa" FirstElSrcRngEndLn="12" rule="BD.PB.NOTEXPLINIT" FirstElSrcRngStartPos="1" lnHash="-28966057" ruleSCSCMsg="非明示的に初期化された値のソース" pkg="jp.co.techmatrix.ml" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" rule.header="明示的に初期化する前の使用を避ける" FirstElSrcRngStartln="12" locStartPos="3" analyzer="com.parasoft.jtest.flowanalyzer" id="854684870" lang="java" locEndPos="84" urgent="true" locEndLn="23" goals="1," locStartln="23" sev="1" locRef="48" tool="jtest" lineHash="-28966057" locType="sr" hash="1879113894" causeLocRef="48">
+      <Props>
+        <Prop key="Tracked variables" val="非明示的に初期化された値:" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1359832988" locType="sr" srcRnghash="1346981288" locRef="50" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" srcRngEndLn="5" ln="5" srcRngEndPos="45" srcRngStartln="5" srcRngStartPos="28" desc="new DataService()" ElType="!" rngLn="5">
+          <ElDescList>
+            <ElDesc lineHash="440398869" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="12" ln="12" srcRngEndPos="24" srcRngStartln="12" srcRngStartPos="1" desc="private Connection con;" ElType=".C" rngLn="12">
+              <Props>
+                <Prop key="Tracked variables" val="this.con" />
+              </Props>
+              <Anns>
+                <Ann msg="非明示的に初期化された値のソース" kind="cause" />
+                <Ann msg="非明示的に初期化された値:: this.con" kind="var" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="1359832988" locType="sr" srcRnghash="1346981288" locRef="50" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" srcRngEndLn="5" ln="5" srcRngEndPos="46" srcRngStartln="5" srcRngStartPos="2" desc="DataService dataService = new DataService();" ElType="!" rngLn="5">
+          <Props>
+            <Prop key="Tracked variables" val="new DataService().con" />
+          </Props>
+          <Anns>
+            <Ann msg="非明示的に初期化された値:: new DataService().con" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-805756520" locType="sr" srcRnghash="1346981288" locRef="50" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" srcRngEndLn="7" ln="7" srcRngEndPos="53" srcRngStartln="7" srcRngStartPos="2" desc="TestBean testBean = dataService.getItemDB( &quot;001&quot; );" ElType="!" rngLn="7">
+          <ElDescList>
+            <ElDesc lineHash="-87727966" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="21" ln="21" srcRngEndPos="23" srcRngStartln="21" srcRngStartPos="2" desc="TestBean item = null;" ElType="." rngLn="21">
+              <Props>
+                <Prop key="Tracked variables" val="this.con" />
+              </Props>
+              <Anns>
+                <Ann msg="非明示的に初期化された値:: this.con" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-28966057" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="23" ln="23" srcRngEndPos="84" srcRngStartln="23" srcRngStartPos="3" desc="PreparedStatement stmt = con.prepareStatement( &quot;select * from id where id = ?&quot; );" ElType=".P" rngLn="23">
+              <Props>
+                <Prop key="Tracked variables" val="this.con" />
+              </Props>
+              <Anns>
+                <Ann msg="非明示的に初期化された値:: this.con" kind="var" />
+                <Ann msg="使用ポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+          <Props>
+            <Prop key="Tracked variables" val="dataService.con" />
+          </Props>
+          <Anns>
+            <Ann msg="非明示的に初期化された値:: dataService.con" kind="var" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;this.con&quot; は null の可能性がある" ln="23" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" ruleSAFMsg="NullPointerException ポイント" FirstElSrcRngEndPos="24" auth="amahisa" FirstElSrcRngEndLn="12" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="1" lnHash="-28966057" ruleSCSCMsg="NULL 値のソース" pkg="jp.co.techmatrix.ml" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" rule.header="NullPointerException を避ける" FirstElSrcRngStartln="12" locStartPos="3" analyzer="com.parasoft.jtest.flowanalyzer" id="545157364" lang="java" locEndPos="84" urgent="true" locEndLn="23" goals="1," locStartln="23" sev="1" locRef="48" tool="jtest" lineHash="-28966057" locType="sr" hash="1879113894" causeLocRef="48">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1359832988" locType="sr" srcRnghash="1346981288" locRef="50" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" srcRngEndLn="5" ln="5" srcRngEndPos="45" srcRngStartln="5" srcRngStartPos="28" desc="new DataService()" ElType="!" rngLn="5">
+          <ElDescList>
+            <ElDesc lineHash="440398869" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="12" ln="12" srcRngEndPos="24" srcRngStartln="12" srcRngStartPos="1" desc="private Connection con;" ElType=".C" rngLn="12">
+              <Props>
+                <Prop key="Tracked variables" val="this.con" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のソース" kind="cause" />
+                <Ann msg="NULL 値のキャリア: this.con" kind="var" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="1359832988" locType="sr" srcRnghash="1346981288" locRef="50" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" srcRngEndLn="5" ln="5" srcRngEndPos="46" srcRngStartln="5" srcRngStartPos="2" desc="DataService dataService = new DataService();" ElType="!" rngLn="5">
+          <Props>
+            <Prop key="Tracked variables" val="new DataService().con" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: new DataService().con" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-805756520" locType="sr" srcRnghash="1346981288" locRef="50" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" srcRngEndLn="7" ln="7" srcRngEndPos="53" srcRngStartln="7" srcRngStartPos="2" desc="TestBean testBean = dataService.getItemDB( &quot;001&quot; );" ElType="!" rngLn="7">
+          <ElDescList>
+            <ElDesc lineHash="-87727966" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="21" ln="21" srcRngEndPos="23" srcRngStartln="21" srcRngStartPos="2" desc="TestBean item = null;" ElType="." rngLn="21">
+              <Props>
+                <Prop key="Tracked variables" val="this.con" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: this.con" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-28966057" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="23" ln="23" srcRngEndPos="84" srcRngStartln="23" srcRngStartPos="3" desc="PreparedStatement stmt = con.prepareStatement( &quot;select * from id where id = ?&quot; );" ElType=".P" rngLn="23">
+              <Props>
+                <Prop key="Tracked variables" val="this.con" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: this.con" kind="var" />
+                <Ann msg="NullPointerException ポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+          <Props>
+            <Prop key="Tracked variables" val="dataService.con" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: dataService.con" kind="var" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="JDBC 文がクローズされていない: stmt" ln="33" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" ruleSAFMsg="割り当てられたリソースが失われるポイント" FirstElSrcRngEndPos="84" auth="amahisa" FirstElSrcRngEndLn="23" rule="BD.RES.LEAKS" FirstElSrcRngStartPos="3" lnHash="-993227778" ruleSCSCMsg="リソースが割り当てられるポイント" pkg="jp.co.techmatrix.ml" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" rule.header="リソースが割り当て解除されていることを確認する" FirstElSrcRngStartln="23" locStartPos="2" analyzer="com.parasoft.jtest.flowanalyzer" id="-2110919816" lang="java" locEndPos="3" urgent="true" locEndLn="33" goals="1," locStartln="33" sev="1" locRef="48" tool="jtest" lineHash="-993227778" locType="sr" hash="1879113894" causeLocRef="48">
+      <Props>
+        <Prop key="Tracked variables" val="割り当てられたリソース変数" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-87727966" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="21" ln="21" srcRngEndPos="23" srcRngStartln="21" srcRngStartPos="2" desc="TestBean item = null;" ElType="." rngLn="21" />
+        <ElDesc lineHash="-28966057" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="23" ln="23" srcRngEndPos="84" srcRngStartln="23" srcRngStartPos="3" desc="PreparedStatement stmt = con.prepareStatement( &quot;select * from id where id = ?&quot; );" ElType=".C" rngLn="23">
+          <Props>
+            <Prop key="Tracked variables" val="stmt" />
+          </Props>
+          <Anns>
+            <Ann msg="リソースが割り当てられるポイント" kind="cause" />
+            <Ann msg="割り当てられたリソース変数: stmt" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-466693673" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="24" ln="24" srcRngEndPos="30" srcRngStartln="24" srcRngStartPos="3" desc="stmt.setString( 1, itemId);" ElType="!E" rngLn="24" thrownTypes="SQLException" throwingMethod="PreparedStatement.setString">
+          <Anns>
+            <Ann msg="PreparedStatement.setString() が SQLException をスロー" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-993227778" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="33" ln="33" srcRngEndPos="3" srcRngStartln="33" srcRngStartPos="2" desc="}" ElType=".P" rngLn="33">
+          <Props>
+            <Prop key="Tracked variables" val="stmt" />
+          </Props>
+          <Anns>
+            <Ann msg="割り当てられたリソース変数: stmt" kind="var" />
+            <Ann msg="割り当てられたリソースが失われるポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="JDBC Resultset がクローズされていない: stmt.resultSet(), rs" ln="33" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" ruleSAFMsg="割り当てられたリソースが失われるポイント" FirstElSrcRngEndPos="38" auth="amahisa" FirstElSrcRngEndLn="25" rule="BD.RES.LEAKS" FirstElSrcRngStartPos="3" lnHash="-993227778" ruleSCSCMsg="リソースが割り当てられるポイント" pkg="jp.co.techmatrix.ml" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" rule.header="リソースが割り当て解除されていることを確認する" FirstElSrcRngStartln="25" locStartPos="2" analyzer="com.parasoft.jtest.flowanalyzer" id="-481139672" lang="java" locEndPos="3" urgent="true" locEndLn="33" goals="1," locStartln="33" sev="1" locRef="48" tool="jtest" lineHash="-993227778" locType="sr" hash="1879113894" causeLocRef="48">
+      <Props>
+        <Prop key="Tracked variables" val="割り当てられたリソース変数" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-87727966" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="21" ln="21" srcRngEndPos="23" srcRngStartln="21" srcRngStartPos="2" desc="TestBean item = null;" ElType="." rngLn="21" />
+        <ElDesc lineHash="-28966057" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="23" ln="23" srcRngEndPos="84" srcRngStartln="23" srcRngStartPos="3" desc="PreparedStatement stmt = con.prepareStatement( &quot;select * from id where id = ?&quot; );" ElType="." rngLn="23" />
+        <ElDesc lineHash="-466693673" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="24" ln="24" srcRngEndPos="30" srcRngStartln="24" srcRngStartPos="3" desc="stmt.setString( 1, itemId);" ElType="." rngLn="24" />
+        <ElDesc lineHash="625686975" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="25" ln="25" srcRngEndPos="38" srcRngStartln="25" srcRngStartPos="3" desc="ResultSet rs = stmt.executeQuery();" ElType=".C" rngLn="25">
+          <Props>
+            <Prop key="Tracked variables" val="stmt.resultSet(), rs" />
+          </Props>
+          <Anns>
+            <Ann msg="リソースが割り当てられるポイント" kind="cause" />
+            <Ann msg="割り当てられたリソース変数: stmt.resultSet(), rs" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1190610545" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="27" ln="27" srcRngEndPos="16" srcRngStartln="27" srcRngStartPos="7" desc="rs.next()" ElType="!E" rngLn="27" thrownTypes="SQLException" throwingMethod="ResultSet.next">
+          <Anns>
+            <Ann msg="ResultSet.next() が SQLException をスロー" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-993227778" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="33" ln="33" srcRngEndPos="3" srcRngStartln="33" srcRngStartPos="2" desc="}" ElType=".P" rngLn="33">
+          <Props>
+            <Prop key="Tracked variables" val="stmt.resultSet(), rs" />
+          </Props>
+          <Anns>
+            <Ann msg="割り当てられたリソース変数: stmt.resultSet(), rs" kind="var" />
+            <Ann msg="割り当てられたリソースが失われるポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;id&quot; は null の可能性がある" ln="9" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_1.java" ruleSAFMsg="NullPointerException ポイント" FirstElSrcRngEndPos="15" auth="amahisa" FirstElSrcRngEndLn="11" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="3" lnHash="629184188" ruleSCSCMsg="NULL 値のソース" pkg="jp.co.techmatrix.ml" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/TestBean.java" rule.header="NullPointerException を避ける" FirstElSrcRngStartln="11" locStartPos="7" analyzer="com.parasoft.jtest.flowanalyzer" id="284688948" lang="java" locEndPos="22" urgent="true" locEndLn="9" goals="1," locStartln="9" sev="1" locRef="49" tool="jtest" lineHash="629184188" locType="sr" hash="-1462216440" causeLocRef="52">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-193739370" locType="sr" srcRnghash="-1462216440" locRef="49" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_1.java" srcRngEndLn="7" ln="7" srcRngEndPos="38" srcRngStartln="7" srcRngStartPos="2" desc="String id = testBean.getId( index );" ElType="!" rngLn="7">
+          <ElDescList>
+            <ElDesc lineHash="1666191943" locType="sr" srcRnghash="-103018857" locRef="52" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/TestBean.java" srcRngEndLn="10" ln="10" srcRngEndPos="20" srcRngStartln="10" srcRngStartPos="2" desc="if ( index &lt; 0 ) {" ElType="." rngLn="10">
+              <Anns>
+                <Ann msg="条件評価: (index &lt; 0) (true を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1444259341" locType="sr" srcRnghash="-103018857" locRef="52" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/TestBean.java" srcRngEndLn="11" ln="11" srcRngEndPos="15" srcRngStartln="11" srcRngStartPos="3" desc="return null;" ElType=".C" rngLn="11">
+              <Props>
+                <Prop key="Tracked variables" val="&lt;getId() の戻り値>" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のソース" kind="cause" />
+                <Ann msg="NULL 値のキャリア: &lt;getId() の戻り値>" kind="var" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="629184188" locType="sr" srcRnghash="-1462216440" locRef="49" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_1.java" srcRngEndLn="9" ln="9" srcRngEndPos="22" srcRngStartln="9" srcRngStartPos="7" desc="id.equals( &quot;&quot; )" ElType=".P" rngLn="9">
+          <Props>
+            <Prop key="Tracked variables" val="id" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: id" kind="var" />
+            <Ann msg="NullPointerException ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;testBean&quot; は null の可能性がある" ln="9" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" ruleSAFMsg="NullPointerException ポイント" FirstElSrcRngEndPos="23" auth="amahisa" FirstElSrcRngEndLn="21" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="2" lnHash="-2024737220" ruleSCSCMsg="NULL 値のソース" pkg="jp.co.techmatrix.ml" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" rule.header="NullPointerException を避ける" FirstElSrcRngStartln="21" locStartPos="2" analyzer="com.parasoft.jtest.flowanalyzer" id="-1847838431" lang="java" locEndPos="31" urgent="true" locEndLn="9" goals="1," locStartln="9" sev="1" locRef="50" tool="jtest" lineHash="-2024737220" locType="sr" hash="1346981288" causeLocRef="48">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1359832988" locType="sr" srcRnghash="1346981288" locRef="50" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" srcRngEndLn="5" ln="5" srcRngEndPos="46" srcRngStartln="5" srcRngStartPos="2" desc="DataService dataService = new DataService();" ElType="." rngLn="5" />
+        <ElDesc lineHash="-805756520" locType="sr" srcRnghash="1346981288" locRef="50" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" srcRngEndLn="7" ln="7" srcRngEndPos="53" srcRngStartln="7" srcRngStartPos="2" desc="TestBean testBean = dataService.getItemDB( &quot;001&quot; );" ElType="!" rngLn="7">
+          <ElDescList>
+            <ElDesc lineHash="-87727966" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="21" ln="21" srcRngEndPos="23" srcRngStartln="21" srcRngStartPos="2" desc="TestBean item = null;" ElType=".C" rngLn="21">
+              <Props>
+                <Prop key="Tracked variables" val="item" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のソース" kind="cause" />
+                <Ann msg="NULL 値のキャリア: item" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-28966057" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="23" ln="23" srcRngEndPos="84" srcRngStartln="23" srcRngStartPos="3" desc="PreparedStatement stmt = con.prepareStatement( &quot;select * from id where id = ?&quot; );" ElType="." rngLn="23" />
+            <ElDesc lineHash="-466693673" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="24" ln="24" srcRngEndPos="30" srcRngStartln="24" srcRngStartPos="3" desc="stmt.setString( 1, itemId);" ElType="." rngLn="24" />
+            <ElDesc lineHash="625686975" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="25" ln="25" srcRngEndPos="38" srcRngStartln="25" srcRngStartPos="3" desc="ResultSet rs = stmt.executeQuery();" ElType="." rngLn="25" />
+            <ElDesc lineHash="1190610545" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="27" ln="27" srcRngEndPos="19" srcRngStartln="27" srcRngStartPos="3" desc="if (rs.next()) {" ElType="." rngLn="27">
+              <Anns>
+                <Ann msg="条件評価: rs.next() (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="756540856" locType="sr" srcRnghash="1879113894" locRef="48" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/DataService.java" srcRngEndLn="37" ln="37" srcRngEndPos="14" srcRngStartln="37" srcRngStartPos="2" desc="return item;" ElType="!" rngLn="37" />
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-2024737220" locType="sr" srcRnghash="1346981288" locRef="50" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_2.java" srcRngEndLn="9" ln="9" srcRngEndPos="31" srcRngStartln="9" srcRngStartPos="2" desc="String pw = testBean.getPw();" ElType=".P" rngLn="9">
+          <Props>
+            <Prop key="Tracked variables" val="testBean" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: testBean" kind="var" />
+            <Ann msg="NullPointerException ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;id&quot; は null の可能性がある" ln="13" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_3.java" ruleSAFMsg="NullPointerException ポイント" FirstElSrcRngEndPos="15" auth="amahisa" FirstElSrcRngEndLn="11" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="3" lnHash="-1501686880" ruleSCSCMsg="NULL 値のソース" pkg="jp.co.techmatrix.ml" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/TestBean.java" rule.header="NullPointerException を避ける" FirstElSrcRngStartln="11" locStartPos="24" analyzer="com.parasoft.jtest.flowanalyzer" id="1221354027" lang="java" locEndPos="35" urgent="true" locEndLn="13" goals="1," locStartln="13" sev="1" locRef="51" tool="jtest" lineHash="-1501686880" locType="sr" hash="2081959836" causeLocRef="52">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-516337389" locType="sr" srcRnghash="2081959836" locRef="51" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_3.java" srcRngEndLn="10" ln="9" srcRngEndPos="0" srcRngStartln="9" srcRngStartPos="2" desc="for ( int i = 0; i &lt; 10; i++ ) {" ElType="." rngLn="9">
+          <Anns>
+            <Ann msg="ループ条件評価:(i &lt; 10) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="347630456" locType="sr" srcRnghash="2081959836" locRef="51" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_3.java" srcRngEndLn="10" ln="10" srcRngEndPos="35" srcRngStartln="10" srcRngStartPos="30" desc="i - 1" ElType="." rngLn="10" />
+        <ElDesc lineHash="347630456" locType="sr" srcRnghash="2081959836" locRef="51" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_3.java" srcRngEndLn="10" ln="10" srcRngEndPos="37" srcRngStartln="10" srcRngStartPos="3" desc="String id = testBean.getId(i - 1);" ElType="!" rngLn="10">
+          <ElDescList>
+            <ElDesc lineHash="1666191943" locType="sr" srcRnghash="-103018857" locRef="52" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/TestBean.java" srcRngEndLn="10" ln="10" srcRngEndPos="20" srcRngStartln="10" srcRngStartPos="2" desc="if ( index &lt; 0 ) {" ElType="." rngLn="10">
+              <Anns>
+                <Ann msg="条件評価: (index &lt; 0) (true)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1444259341" locType="sr" srcRnghash="-103018857" locRef="52" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/TestBean.java" srcRngEndLn="11" ln="11" srcRngEndPos="15" srcRngStartln="11" srcRngStartPos="3" desc="return null;" ElType=".C" rngLn="11">
+              <Props>
+                <Prop key="Tracked variables" val="&lt;getId() の戻り値>" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のソース" kind="cause" />
+                <Ann msg="NULL 値のキャリア: &lt;getId() の戻り値>" kind="var" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="237231250" locType="sr" srcRnghash="2081959836" locRef="51" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_3.java" srcRngEndLn="12" ln="12" srcRngEndPos="48" srcRngStartln="12" srcRngStartPos="3" desc="if ( !String.valueOf( index ).equals( id ) ){" ElType="." rngLn="12">
+          <Props>
+            <Prop key="Tracked variables" val="id" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: id" kind="var" />
+            <Ann msg="条件評価: !String.valueOf( index ).equals( id ) (true を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1501686880" locType="sr" srcRnghash="2081959836" locRef="51" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/MLtest_3.java" srcRngEndLn="13" ln="13" srcRngEndPos="35" srcRngStartln="13" srcRngStartPos="24" desc="id.length()" ElType=".P" rngLn="13">
+          <Props>
+            <Prop key="Tracked variables" val="id" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: id" kind="var" />
+            <Ann msg="NullPointerException ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="クラスが java.io.Serializable を実装していない: TestBean" ln="3" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/ml/TestBean.java" locStartln="3" sev="3" auth="amahisa" locRef="52" rule="BEAN.SERIALIZABLE" lnHash="-1621072932" pkg="jp.co.techmatrix.ml" rule.header="JavaBean クラスは Serializable を実装しなければならない" tool="jtest" lineHash="-1621072932" locStartPos="13" analyzer="com.parasoft.jtest.standards.checkers.rulewizard" lang="java" locEndPos="21" locType="sr" urgent="true" hash="-103018857" locEndLn="3" goals="1," />
+    <FlowViol msg="&quot;this.value&quot; は null の可能性がある" ln="12" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/Toupper.java" ruleSAFMsg="NullPointerException ポイント" FirstElSrcRngEndPos="28" auth="amahisa" FirstElSrcRngEndLn="4" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="1" lnHash="-442602704" ruleSCSCMsg="NULL 値のソース" pkg="jp.co.techmatrix.sample" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/Toupper.java" rule.header="NullPointerException を避ける" FirstElSrcRngStartln="4" locStartPos="9" analyzer="com.parasoft.jtest.flowanalyzer" id="-826622257" lang="java" locEndPos="28" urgent="true" locEndLn="12" goals="1," locStartln="12" sev="1" locRef="53" tool="jtest" lineHash="-442602704" locType="sr" hash="1856091363" causeLocRef="53">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-406009677" locType="sr" srcRnghash="-1497808668" locRef="54" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/ToupperCall.java" srcRngEndLn="5" ln="5" srcRngEndPos="34" srcRngStartln="5" srcRngStartPos="17" desc="new Toupper( 10 )" ElType="!" rngLn="5">
+          <ElDescList>
+            <ElDesc lineHash="840379457" locType="sr" srcRnghash="1856091363" locRef="53" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/Toupper.java" srcRngEndLn="4" ln="4" srcRngEndPos="28" srcRngStartln="4" srcRngStartPos="1" desc="public String value = null;" ElType=".C" rngLn="4">
+              <Props>
+                <Prop key="Tracked variables" val="this.value" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のソース" kind="cause" />
+                <Ann msg="NULL 値のキャリア: this.value" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-925334343" locType="sr" srcRnghash="1856091363" locRef="53" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/Toupper.java" srcRngEndLn="7" ln="7" srcRngEndPos="20" srcRngStartln="7" srcRngStartPos="2" desc="if ( index == 0 ){" ElType="." rngLn="7">
+              <Anns>
+                <Ann msg="条件評価: (index == 0) (false)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-406009677" locType="sr" srcRnghash="-1497808668" locRef="54" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/ToupperCall.java" srcRngEndLn="5" ln="5" srcRngEndPos="35" srcRngStartln="5" srcRngStartPos="2" desc="Toupper name = new Toupper( 10 );" ElType="!" rngLn="5">
+          <Props>
+            <Prop key="Tracked variables" val="new Toupper( 10 ).value" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: new Toupper( 10 ).value" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1810686363" locType="sr" srcRnghash="-1497808668" locRef="54" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/ToupperCall.java" srcRngEndLn="6" ln="6" srcRngEndPos="36" srcRngStartln="6" srcRngStartPos="22" desc="name.toUpper()" ElType="!" rngLn="6">
+          <ElDescList>
+            <ElDesc lineHash="-442602704" locType="sr" srcRnghash="1856091363" locRef="53" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/Toupper.java" srcRngEndLn="12" ln="12" srcRngEndPos="28" srcRngStartln="12" srcRngStartPos="9" desc="value.toUpperCase()" ElType=".P" rngLn="12">
+              <Props>
+                <Prop key="Tracked variables" val="this.value" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: this.value" kind="var" />
+                <Ann msg="NullPointerException ポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+          <Props>
+            <Prop key="Tracked variables" val="name.value" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: name.value" kind="var" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;str&quot; は null の可能性がある" ln="15" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/ToupperCall.java" ruleSAFMsg="NullPointerException ポイント" FirstElSrcRngEndPos="20" auth="amahisa" FirstElSrcRngEndLn="10" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="2" lnHash="-1214551617" ruleSCSCMsg="NULL 値のソース" pkg="jp.co.techmatrix.sample" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/ToupperCall.java" rule.header="NullPointerException を避ける" FirstElSrcRngStartln="10" locStartPos="22" analyzer="com.parasoft.jtest.flowanalyzer" id="1118317101" lang="java" locEndPos="39" urgent="true" locEndLn="15" goals="1," locStartln="15" sev="1" locRef="54" tool="jtest" lineHash="-1214551617" locType="sr" hash="-1497808668" causeLocRef="54">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1585309363" locType="sr" srcRnghash="-1497808668" locRef="54" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/ToupperCall.java" srcRngEndLn="10" ln="10" srcRngEndPos="20" srcRngStartln="10" srcRngStartPos="2" desc="String str = null;" ElType=".C" rngLn="10">
+          <Props>
+            <Prop key="Tracked variables" val="str" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: str" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-925334343" locType="sr" srcRnghash="-1497808668" locRef="54" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/ToupperCall.java" srcRngEndLn="12" ln="12" srcRngEndPos="20" srcRngStartln="12" srcRngStartPos="2" desc="if ( index == 0 ){" ElType="." rngLn="12">
+          <Anns>
+            <Ann msg="条件評価: (index == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1214551617" locType="sr" srcRnghash="-1497808668" locRef="54" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/sample/ToupperCall.java" srcRngEndLn="15" ln="15" srcRngEndPos="39" srcRngStartln="15" srcRngStartPos="22" desc="str.toUpperCase()" ElType=".P" rngLn="15">
+          <Props>
+            <Prop key="Tracked variables" val="str" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: str" kind="var" />
+            <Ann msg="NullPointerException ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <MetViol msg="値 30 が次の許容範囲を超えている: '30 より小さい'" ln="5" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/ComplexClass.java" locStartln="5" sev="3" auth="amahisa" locRef="55" rule="METRIC.CC" lnHash="467770683" rule.header="McCabe Cyclomatic Complexity" tool="jtest" lineHash="467770683" locStartPos="0" analyzer="com.parasoft.jtest.standards.metrics.analyzer" lang="java" locEndPos="0" locType="sr" urgent="true" hash="-804857472" locEndLn="6" goals="1," />
+    <StdViol msg="switch 文に default: ラベルがない" ln="31" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" locStartln="31" sev="3" auth="amahisa" locRef="57" rule="PB.PDS" lnHash="-1126039395" pkg="jp.co.techmatrix.servlet" rule.header="各 switch 文には default: を用意する" tool="jtest" lineHash="-1126039395" locStartPos="2" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" locEndPos="8" locType="sr" urgent="true" hash="1444845631" locEndLn="31" goals="1," />
+    <FlowViol msg="ストリームがクローズされていない: &lt;buffWriter によって参照される Writer>" ln="69" locFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" ruleSAFMsg="割り当てられたリソースが失われるポイント" FirstElSrcRngEndPos="52" auth="amahisa" FirstElSrcRngEndLn="73" rule="BD.RES.LEAKS" FirstElSrcRngStartPos="27" lnHash="404" ruleSCSCMsg="リソースが割り当てられるポイント" pkg="jp.co.techmatrix.servlet" FirstElSrcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" rule.header="リソースが割り当て解除されていることを確認する" FirstElSrcRngStartln="73" locStartPos="1" analyzer="com.parasoft.jtest.flowanalyzer" id="-1500859802" lang="java" locEndPos="2" urgent="true" locEndLn="69" goals="1," locStartln="69" sev="1" locRef="57" tool="jtest" lineHash="404" locType="sr" hash="1444845631" causeLocRef="57">
+      <Props>
+        <Prop key="Tracked variables" val="割り当てられたリソース変数" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="711109824" locType="sr" srcRnghash="1444845631" locRef="57" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" srcRngEndLn="40" ln="40" srcRngEndPos="48" srcRngStartln="40" srcRngStartPos="2" desc="BufferedWriter buffWriter = getWriter( &quot;AA&quot; );" ElType="!" rngLn="40">
+          <ElDescList>
+            <ElDesc lineHash="-423459355" locType="sr" srcRnghash="1444845631" locRef="57" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" srcRngEndLn="71" ln="71" srcRngEndPos="35" srcRngStartln="71" srcRngStartPos="2" desc="BufferedWriter buffWriter = null;" ElType="." rngLn="71" />
+            <ElDesc lineHash="-574575630" locType="sr" srcRnghash="1444845631" locRef="57" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" srcRngEndLn="73" ln="73" srcRngEndPos="53" srcRngStartln="73" srcRngStartPos="3" desc="FileWriter fileWriter = new FileWriter( outPath );" ElType=".C" rngLn="73">
+              <Props>
+                <Prop key="Tracked variables" val="new FileWriter( outPath )" />
+              </Props>
+              <Anns>
+                <Ann msg="リソースが割り当てられるポイント" kind="cause" />
+                <Ann msg="割り当てられたリソース変数: new FileWriter( outPath )" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-1688420251" locType="sr" srcRnghash="1444845631" locRef="57" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" srcRngEndLn="74" ln="74" srcRngEndPos="49" srcRngStartln="74" srcRngStartPos="3" desc="buffWriter = new BufferedWriter( fileWriter );" ElType="!" rngLn="74">
+              <Props>
+                <Prop key="Tracked variables" val="fileWriter" />
+              </Props>
+              <Anns>
+                <Ann msg="割り当てられたリソース変数: fileWriter" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-382969723" locType="sr" srcRnghash="1444845631" locRef="57" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" srcRngEndLn="78" ln="78" srcRngEndPos="20" srcRngStartln="78" srcRngStartPos="2" desc="return buffWriter;" ElType="!" rngLn="78">
+              <Props>
+                <Prop key="Tracked variables" val="&lt;buffWriter によって参照される Writer>" />
+              </Props>
+              <Anns>
+                <Ann msg="割り当てられたリソース変数: &lt;buffWriter によって参照される Writer>" kind="var" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="719860270" locType="sr" srcRnghash="1444845631" locRef="57" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" srcRngEndLn="41" ln="41" srcRngEndPos="61" srcRngStartln="41" srcRngStartPos="2" desc="if ( buffWriter == null || customerList.isEmpty() ) return;" ElType="." rngLn="41">
+          <Props>
+            <Prop key="Tracked variables" val="&lt;buffWriter によって参照される Writer>" />
+          </Props>
+          <Anns>
+            <Ann msg="割り当てられたリソース変数: &lt;buffWriter によって参照される Writer>" kind="var" />
+            <Ann msg="条件評価: (buffWriter == null) (false)" kind="condEval" />
+            <Ann msg="条件評価: customerList.isEmpty() (true を仮定)" kind="condEval" />
+            <Ann msg="条件評価: buffWriter == null || customerList.isEmpty() (true)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="404" locType="sr" srcRnghash="1444845631" locRef="57" srcRngFile="/jp.co.techmatrix.store:store-front/src/main/java/jp/co/techmatrix/servlet/Personal.java" srcRngEndLn="69" ln="69" srcRngEndPos="2" srcRngStartln="69" srcRngStartPos="1" desc="}" ElType=".P" rngLn="69">
+          <Props>
+            <Prop key="Tracked variables" val="&lt;buffWriter によって参照される Writer>" />
+          </Props>
+          <Anns>
+            <Ann msg="割り当てられたリソース変数: &lt;buffWriter によって参照される Writer>" kind="var" />
+            <Ann msg="割り当てられたリソースが失われるポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+  </StdViols>
+</mergePnt>
