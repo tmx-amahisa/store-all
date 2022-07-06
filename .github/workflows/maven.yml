@@ -38,7 +38,7 @@ jobs:
     
     # Generates the jtest.data.json input file.
     - name: Create input for Jtest
-      run: mvn clean install jtest:jtest -DskipTests=true -Djtest.skip=true
+      run: mvn clean install jtest:jtest "-DskipTests=true -Djtest.skip=true"
 
     # Runs code analysis with Jtest
     - name: Run Jtest
