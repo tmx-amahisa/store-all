@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-
+    name: build only
     runs-on: ubuntu-latest
 
     steps:
@@ -26,6 +26,9 @@ jobs:
       run: mvn -B package --file pom.xml -Dmaven.test.failure.ignore=true
       
   static_analysis:
+    name: jtest analysis
+    needs: build
+  
     runs-on: self-hosted
     
     steps:
@@ -35,7 +38,7 @@ jobs:
     
     # Generates the jtest.data.json input file.
     - name: Create input for Jtest
-      run: mvn clean install jtest:jtest "-Djtest.skip=true" 
+      run: mvn clean install jtest:jtest "-Djtest.skip=true" -Dmaven.test.failure.ignore=true
 
     # Runs code analysis with Jtest
     - name: Run Jtest
