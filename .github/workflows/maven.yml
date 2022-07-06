@@ -45,6 +45,7 @@ jobs:
       id: jtest
       uses: parasoft/run-jtest-action@1.0.0
       with:
+        installDir: C:\JtestInstall\jtest_2021.2.1
         #Uses the jtest.data.json generated with the Maven command in the previous step
         input: build/jtest/jtest.data.json
 
